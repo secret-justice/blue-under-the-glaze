@@ -1,0 +1,197 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "ports",
+  "count": 19,
+  "records": [
+    {
+      "id": "jingdezhen",
+      "n": "景德镇",
+      "e": "Jingdezhen",
+      "lon": 117.19,
+      "lat": 29.29,
+      "kind": "site",
+      "rz": "瓷都。本书的核心产地：御窑与民窑沿昌江两岸分布，高岭土取自附近高岭村。",
+      "re": "The porcelain city and the book's core site of production: imperial and private kilns lined both banks of the Chang River."
+    },
+    {
+      "id": "nanchang",
+      "n": "鄱阳湖",
+      "e": "Poyang Lake",
+      "lon": 116,
+      "lat": 29.1,
+      "kind": "hub",
+      "rz": "内河枢纽。昌江于此汇入鄱阳湖，瓷器经此进入长江与大运河体系，北运帝都。",
+      "re": "The inland hub: the Chang River flows into Poyang Lake, giving access to the Yangtze and the Grand Canal."
+    },
+    {
+      "id": "guangzhou",
+      "n": "广州",
+      "e": "Guangzhou (Canton)",
+      "lon": 113.26,
+      "lat": 23.13,
+      "kind": "port",
+      "rz": "帝国南大门。赣江—南岭通道的终点，清代十三行一口通商的所在，欧洲商船的 destination。",
+      "re": "The southern gate of the empire and the terminus of the Gan River route; sole licensed port for European trade under the Canton System."
+    },
+    {
+      "id": "yuegang",
+      "n": "月港（漳州）",
+      "e": "Yuegang (Zhangzhou)",
+      "lon": 117.65,
+      "lat": 24.51,
+      "kind": "port",
+      "rz": "明代后期民间海外贸易的中心港口，漳州窑外销瓷的出发港。",
+      "re": "The centre of private overseas trade in the late Ming and the port of departure for Zhangzhou (Swatow) export wares."
+    },
+    {
+      "id": "macao",
+      "n": "澳门",
+      "e": "Macao",
+      "lon": 113.55,
+      "lat": 22.2,
+      "kind": "port",
+      "rz": "葡萄牙人居留地与转口港，连接广州、马六甲与长崎的航线节点。",
+      "re": "Portuguese settlement and entrepôt linking Guangzhou, Malacca and Nagasaki."
+    },
+    {
+      "id": "malacca",
+      "n": "马六甲",
+      "e": "Malacca",
+      "lon": 102.24,
+      "lat": 2.2,
+      "kind": "port",
+      "rz": "印度洋与太平洋之间的咽喉。转口贸易的集散地，等于是全球贸易的\"收费站\"。",
+      "re": "The choke point between Indian and Pacific Oceans — an entrepôt that functioned as a toll gate of global trade."
+    },
+    {
+      "id": "batavia",
+      "n": "巴达维亚",
+      "e": "Batavia (Jakarta)",
+      "lon": 106.85,
+      "lat": -6.21,
+      "kind": "port",
+      "rz": "VOC 在东方的总部所在，亚洲区域贸易网络的枢纽。",
+      "re": "The VOC's Asian headquarters and the hub of its intra-Asian trading network."
+    },
+    {
+      "id": "manila",
+      "n": "马尼拉",
+      "e": "Manila",
+      "lon": 120.98,
+      "lat": 14.6,
+      "kind": "port",
+      "rz": "马尼拉大帆船的东方端点：中国商品在此换乘太平洋航线，驶往阿卡普尔科。",
+      "re": "The eastern terminus of the Manila galleon: Chinese goods transferred here onto the Pacific route to Acapulco."
+    },
+    {
+      "id": "nagasaki",
+      "n": "长崎",
+      "e": "Nagasaki",
+      "lon": 129.87,
+      "lat": 32.75,
+      "kind": "port",
+      "rz": "日本对华与对欧贸易的窗口，唐船与荷兰船在此交会。",
+      "re": "Japan's window for trade with China and Europe, where Chinese junks and Dutch ships met."
+    },
+    {
+      "id": "calicut",
+      "n": "卡利卡特",
+      "e": "Calicut",
+      "lon": 75.78,
+      "lat": 11.25,
+      "kind": "port",
+      "rz": "印度西海岸的香料与瓷器贸易港，阿拉伯、印度与中国商人的交汇之处。",
+      "re": "A spice and porcelain port on India's west coast, where Arab, Indian and Chinese merchants converged."
+    },
+    {
+      "id": "hormuz",
+      "n": "霍尔木兹",
+      "e": "Hormuz",
+      "lon": 56.27,
+      "lat": 27.1,
+      "kind": "port",
+      "rz": "波斯湾入口的转口港，通往波斯与中亚市场的门户。",
+      "re": "The entrepôt at the mouth of the Persian Gulf and the gateway to Persian and Central Asian markets."
+    },
+    {
+      "id": "aden",
+      "n": "亚丁",
+      "e": "Aden",
+      "lon": 45.03,
+      "lat": 12.79,
+      "kind": "port",
+      "rz": "红海入口。亚丁—红海航线把印度洋贸易接入地中海世界。",
+      "re": "The gate of the Red Sea, connecting Indian Ocean trade to the Mediterranean world."
+    },
+    {
+      "id": "jeddah",
+      "n": "吉达",
+      "e": "Jeddah",
+      "lon": 39.17,
+      "lat": 21.54,
+      "kind": "port",
+      "rz": "红海沿岸的朝圣与贸易港，瓷器由此转运埃及与欧洲。",
+      "re": "A pilgrimage and trade port on the Red Sea, from which porcelain moved on to Egypt and Europe."
+    },
+    {
+      "id": "cairo",
+      "n": "开罗",
+      "e": "Cairo (via Suez)",
+      "lon": 31.24,
+      "lat": 30.05,
+      "kind": "port",
+      "rz": "从红海到地中海的陆桥。经此，青花进入马穆鲁克与奥斯曼世界的宫廷。",
+      "re": "The land bridge from the Red Sea to the Mediterranean: blue-and-white entered the courts of the Mamluk and Ottoman worlds."
+    },
+    {
+      "id": "venice",
+      "n": "威尼斯",
+      "e": "Venice",
+      "lon": 12.34,
+      "lat": 45.44,
+      "kind": "port",
+      "rz": "地中海世界的终点与欧洲分销的起点，最早大量收藏中国瓷器的欧洲城市之一。",
+      "re": "The terminus of the Mediterranean world and the starting point of European distribution; among the earliest European cities to collect Chinese porcelain in quantity."
+    },
+    {
+      "id": "seville",
+      "n": "塞维利亚",
+      "e": "Seville",
+      "lon": -6,
+      "lat": 37.39,
+      "kind": "port",
+      "rz": "西班牙宝船队的目的地，美洲白银与亚洲瓷器在此汇流。",
+      "re": "Destination of the Spanish treasure fleets, where American silver and Asian porcelain converged."
+    },
+    {
+      "id": "lisbon",
+      "n": "里斯本",
+      "e": "Lisbon",
+      "lon": -9.14,
+      "lat": 38.72,
+      "kind": "port",
+      "rz": "葡萄牙国门的港口，克拉克瓷（kraak）欧洲分销的中心。",
+      "re": "Portugal's gateway port and the centre of European distribution for kraak porcelain."
+    },
+    {
+      "id": "amsterdam",
+      "n": "阿姆斯特丹",
+      "e": "Amsterdam",
+      "lon": 4.9,
+      "lat": 52.37,
+      "kind": "port",
+      "rz": "十七世纪的世界贸易之都，VOC 的大本营；青花出现在荷兰静物画中。",
+      "re": "The trading capital of the seventeenth century and home of the VOC; blue-and-white appears in Dutch still lifes."
+    },
+    {
+      "id": "acapulco",
+      "n": "阿卡普尔科",
+      "e": "Acapulco",
+      "lon": -99.92,
+      "lat": 16.85,
+      "kind": "port",
+      "rz": "马尼拉大帆船的太平洋彼岸终点，中国瓷器由此进入新西班牙与美洲市场。",
+      "re": "The Pacific terminus of the Manila galleon, from which Chinese porcelain entered New Spain and American markets."
+    }
+  ]
+}
