@@ -1,0 +1,213 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "tnet",
+  "count": 12,
+  "records": {
+    "nodes": [
+      {
+        "id": "cizhou",
+        "x": 132,
+        "y": 108,
+        "r": 21,
+        "zh": "磁州窑",
+        "en": "Cizhou kilns",
+        "sub_zh": "白地黑花 · 铁料",
+        "sub_en": "White slip, iron pigment",
+        "era": "宋—元"
+      },
+      {
+        "id": "jizhou",
+        "x": 96,
+        "y": 268,
+        "r": 21,
+        "zh": "吉州窑",
+        "en": "Jizhou kilns",
+        "sub_zh": "釉下彩绘",
+        "sub_en": "Underglaze painting",
+        "era": "宋—元"
+      },
+      {
+        "id": "jd",
+        "x": 348,
+        "y": 252,
+        "r": 36,
+        "zh": "景德镇 · 青花",
+        "en": "Jingdezhen",
+        "sub_zh": "高岭土瓷胎 · 釉下钴蓝",
+        "sub_en": "Porcelain, underglaze cobalt",
+        "era": "元—清"
+      },
+      {
+        "id": "persia",
+        "x": 360,
+        "y": 62,
+        "r": 20,
+        "zh": "波斯 · 钴料",
+        "en": "Persian cobalt",
+        "sub_zh": "苏麻离青等进口料",
+        "sub_en": "Imported cobalt ores",
+        "era": "14–15 世纪"
+      },
+      {
+        "id": "arita",
+        "x": 652,
+        "y": 118,
+        "r": 24,
+        "zh": "有田 · 伊万里",
+        "en": "Arita / Imari",
+        "sub_zh": "瓷胎 · 青花 + 釉上红金",
+        "sub_en": "Porcelain, blue + overglaze red",
+        "era": "17–18 世纪"
+      },
+      {
+        "id": "sea",
+        "x": 556,
+        "y": 300,
+        "r": 20,
+        "zh": "越南 / 泰国青花",
+        "en": "Vietnamese & Thai blue-and-white",
+        "sub_zh": "区域仿烧",
+        "sub_en": "Regional imitations",
+        "era": "15–16 世纪"
+      },
+      {
+        "id": "delft",
+        "x": 862,
+        "y": 236,
+        "r": 25,
+        "zh": "代尔夫特陶",
+        "en": "Delftware",
+        "sub_zh": "锡釉陶 · 白釉蓝彩",
+        "sub_en": "Tin-glazed earthenware",
+        "era": "17 世纪"
+      },
+      {
+        "id": "wedge",
+        "x": 886,
+        "y": 402,
+        "r": 23,
+        "zh": "韦奇伍德 · 碧玉炻器",
+        "en": "Wedgwood jasperware",
+        "sub_zh": "炻器 · 蓝入胎体",
+        "sub_en": "Stoneware, blue through the body",
+        "era": "18 世纪"
+      },
+      {
+        "id": "puebla",
+        "x": 522,
+        "y": 470,
+        "r": 21,
+        "zh": "普埃布拉陶",
+        "en": "Puebla talavera",
+        "sub_zh": "锡釉陶 · 新西班牙",
+        "sub_en": "Tin-glazed, New Spain",
+        "era": "17–18 世纪"
+      },
+      {
+        "id": "still",
+        "x": 766,
+        "y": 556,
+        "r": 20,
+        "zh": "荷兰静物画",
+        "en": "Dutch still life",
+        "sub_zh": "入画 · 图像记录",
+        "sub_en": "Painted record",
+        "era": "17 世纪"
+      },
+      {
+        "id": "order",
+        "x": 322,
+        "y": 480,
+        "r": 20,
+        "zh": "欧洲定制 · 来样加工",
+        "en": "European commissions",
+        "sub_zh": "纹样订单",
+        "sub_en": "Patterns ordered",
+        "era": "18 世纪"
+      },
+      {
+        "id": "return",
+        "x": 150,
+        "y": 430,
+        "r": 19,
+        "zh": "外销瓷回流",
+        "en": "Export ware returning",
+        "sub_zh": "市场回流",
+        "sub_en": "Return flows",
+        "era": "18–19 世纪"
+      }
+    ],
+    "edges": [
+      [
+        "cizhou",
+        "jd",
+        "pre"
+      ],
+      [
+        "jizhou",
+        "jd",
+        "pre"
+      ],
+      [
+        "persia",
+        "jd",
+        "mat"
+      ],
+      [
+        "jd",
+        "arita",
+        "imi"
+      ],
+      [
+        "jd",
+        "sea",
+        "imi"
+      ],
+      [
+        "jd",
+        "delft",
+        "sub"
+      ],
+      [
+        "arita",
+        "delft",
+        "imi"
+      ],
+      [
+        "delft",
+        "wedge",
+        "sub"
+      ],
+      [
+        "jd",
+        "puebla",
+        "sub"
+      ],
+      [
+        "jd",
+        "still",
+        "rep"
+      ],
+      [
+        "delft",
+        "still",
+        "rep"
+      ],
+      [
+        "order",
+        "jd",
+        "dem"
+      ],
+      [
+        "jd",
+        "order",
+        "dem"
+      ],
+      [
+        "jd",
+        "return",
+        "dem"
+      ]
+    ]
+  }
+}
