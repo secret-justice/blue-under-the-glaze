@@ -180,7 +180,7 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
   transition: all .25s; position: relative; z-index: 2;
 }
 .tl-node:hover .tl-dot, .tl-node.on .tl-dot {
-  background: var(--copper); border-color: var(--copper); transform: scale(1.35);
+  background: var(--copper); border-color: var(--copper-ink); transform: scale(1.35);
   box-shadow: 0 0 0 6px rgba(176,129,85,.18);
 }
 .tl-year {
@@ -262,7 +262,7 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
 }
 .map-legend { display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); font-family: var(--f-sans); }
 .map-legend i { display: inline-block; width: 22px; height: 0; border-top: 2px dashed var(--qh-500); vertical-align: middle; margin-right: 6px; }
-.map-legend i.solid { border-top-style: solid; border-color: var(--copper); }
+.map-legend i.solid { border-top-style: solid; border-color: var(--copper-ink); }
 
 /* ---------- 选读 ---------- */
 .read-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
@@ -334,7 +334,7 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
   background: #fff; border: 1px solid var(--qh-200); border-radius: 6px; padding: 13px 16px;
   transition: all .2s;
 }
-.term-card:hover { border-color: var(--qh-400); box-shadow: 0 4px 14px rgba(29,62,95,.08); transform: translateY(-1px); }
+.term-card:hover { border-color: var(--qh-500); box-shadow: 0 4px 14px rgba(29,62,95,.08); transform: translateY(-1px); }
 .term-card .tc-en { font-family: var(--f-en); font-size: 13px; color: var(--qh-600); font-style: italic; }
 .term-card .tc-zh { font-size: 15.5px; color: var(--qh-900); font-weight: 700; margin: 2px 0; }
 .term-card .tc-note { font-size: 12px; color: var(--ink-3); line-height: 1.5; }
@@ -362,7 +362,7 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
 .team-card ul { list-style: none; }
 .team-card li { font-size: 14px; color: var(--ink-2); padding: 7px 0 7px 20px; position: relative; border-bottom: 1px dashed var(--qh-100); }
 .team-card li:last-child { border-bottom: none; }
-.team-card li::before { content: "◦"; position: absolute; left: 2px; color: var(--copper); }
+.team-card li::before { content: "◦"; position: absolute; left: 2px; color: var(--copper-ink); }
 .team-card li b { color: var(--qh-800); }
 .disclose {
   margin-top: 22px; padding: 22px 26px; border-left: 4px solid var(--copper);
@@ -378,7 +378,7 @@ footer {
 footer .foot-inner { max-width: var(--maxw); margin: 0 auto; }
 footer h5 { color: #fff; font-size: 16px; margin-bottom: 10px; letter-spacing: 2px; }
 footer p { font-size: 13px; line-height: 1.9; }
-footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5px; margin-top: 10px; color: var(--qh-400); }
+footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5px; margin-top: 10px; color: var(--qh-200); }
 
 /* ---------- 选读插图 ---------- */
 .read-fig {
@@ -414,7 +414,7 @@ footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5p
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 .gal-card:hover {
-  transform: translateY(-4px); border-color: var(--qh-400);
+  transform: translateY(-4px); border-color: var(--qh-500);
   box-shadow: 0 10px 26px rgba(18,41,61,.14);
 }
 .gal-img { background: #0B1A27; aspect-ratio: 3 / 4.3; overflow: hidden; }
@@ -426,7 +426,7 @@ footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5p
 .gal-card figcaption { padding: 14px 15px 15px; }
 .gal-era {
   display: inline-block; font-size: 10.5px; font-family: var(--f-sans);
-  letter-spacing: 1px; color: var(--copper); margin-bottom: 5px;
+  letter-spacing: 1px; color: var(--copper-ink); margin-bottom: 5px;
 }
 .gal-card b { display: block; font-size: 15px; color: var(--qh-900); line-height: 1.45; }
 .gal-card i {
@@ -455,7 +455,7 @@ footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5p
 }
 .gal-lb-inner figcaption { color: #E8EEF4; text-align: center; max-width: 760px; }
 .gal-lb-inner figcaption b { font-size: 17px; display: block; }
-.gal-lb-inner figcaption span { font-size: 12px; color: var(--copper-l); font-family: var(--f-sans); }
+.gal-lb-inner figcaption span { font-size: 12px; color: var(--copper-ink); font-family: var(--f-sans); }
 .gal-lb-inner figcaption p { font-size: 13.5px; color: #CFDAE6; margin-top: 8px; line-height: 1.75; text-align: justify; }
 .gal-lb-inner figcaption .gal-ai {
   display: inline-block; margin-top: 10px; font-size: 10.5px; font-family: var(--f-sans);
@@ -479,8 +479,8 @@ footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5p
 .trans-step:hover { background: var(--qh-100); }
 .trans-step.on { background: var(--qh-800); border-color: var(--qh-800); }
 .trans-step.on .ts-place, .trans-step.on .ts-t { color: #E8EEF4; }
-.trans-step.on .ts-n { color: var(--copper-l); }
-.ts-n { font-family: var(--f-en); font-size: 11px; color: var(--copper); letter-spacing: 1px; }
+.trans-step.on .ts-n { color: var(--copper-ink); }
+.ts-n { font-family: var(--f-en); font-size: 11px; color: var(--copper-ink); letter-spacing: 1px; }
 .ts-place { font-size: 11px; color: var(--ink-3); font-family: var(--f-sans); }
 .ts-t { font-size: 14px; color: var(--qh-900); font-weight: 700; }
 .trans-panel {
@@ -492,7 +492,7 @@ footer .foot-en { font-family: var(--f-en); font-style: italic; font-size: 12.5p
 .tp-body { position: relative; }
 .tp-key {
   position: absolute; top: 0; right: 0; font-size: 11px; font-family: var(--f-sans);
-  letter-spacing: 2px; color: var(--copper); border: 1px solid var(--copper-l);
+  letter-spacing: 2px; color: var(--copper-ink); border: 1px solid var(--copper-l);
   padding: 3px 10px; border-radius: 2px;
 }
 .tp-body h3 { font-size: 20px; color: var(--qh-900); margin-bottom: 10px; padding-right: 76px; }
@@ -638,3 +638,16 @@ html[lang="en"] .about-p { display: none; }
 .tn-clear { margin-top: 6px; padding: 6px 14px; font-size: 12.5px; border-radius: 999px;
   border: 1px solid var(--qh-100); background: #fff; cursor: pointer; color: var(--qh-700); }
 @media (max-width: 768px) { .tn-svg { min-height: 320px; } }
+
+/* 计数用：不压对比度 */
+.chip-n { opacity: 1; color: inherit; font-variant-numeric: tabular-nums; font-weight: 400; }
+
+/* ===== 对比度兜底（append-only · 保证 ≥4.5:1）===== */
+.ts-n { color: var(--copper-ink); }
+.trans-step.on .ts-n { color: #F0D3AC; }
+.trans-step.on .ts-place,
+.trans-step.on .ts-t { color: #FFFFFF; }
+.gal-era, .tp-key, .note-src { color: var(--copper-ink); }
+.foot-en { color: var(--qh-200); }
+/* 深底上的浅铜统一提亮 */
+[style*="color:var(--copper)"] { color: var(--copper-ink); }
