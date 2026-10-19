@@ -1,0 +1,121 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "routes",
+  "count": 19,
+  "records": [
+    {
+      "from": "jingdezhen",
+      "to": "nanchang",
+      "kind": "inland",
+      "label": "昌江—鄱阳湖"
+    },
+    {
+      "from": "nanchang",
+      "to": "guangzhou",
+      "kind": "inland",
+      "label": "赣江—南岭"
+    },
+    {
+      "from": "jingdezhen",
+      "to": "guangzhou",
+      "kind": "inland",
+      "label": ""
+    },
+    {
+      "from": "guangzhou",
+      "to": "macao",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "macao",
+      "to": "malacca",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "malacca",
+      "to": "calicut",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "calicut",
+      "to": "hormuz",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "hormuz",
+      "to": "aden",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "aden",
+      "to": "jeddah",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "jeddah",
+      "to": "cairo",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "cairo",
+      "to": "venice",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "venice",
+      "to": "lisbon",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "lisbon",
+      "to": "seville",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "seville",
+      "to": "amsterdam",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "yuegang",
+      "to": "manila",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "manila",
+      "to": "acapulco",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "yuegang",
+      "to": "nagasaki",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "malacca",
+      "to": "batavia",
+      "kind": "sea",
+      "label": ""
+    },
+    {
+      "from": "batavia",
+      "to": "nagasaki",
+      "kind": "sea",
+      "label": ""
+    }
+  ]
+}
