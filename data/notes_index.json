@@ -1,0 +1,55 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "notes",
+  "count": 6,
+  "records": [
+    {
+      "n": 1,
+      "src": "总体方法",
+      "t": "如何研究一个瓷都 · Method",
+      "ref": "本作品的研究路径：① 以博物馆公开藏品目录建立器物谱系；② 以考古发掘报告建立窑址与年代序列；③ 以贸易史与公司档案研究流通；④ 以物质文化研究的方法整合三者。",
+      "note": "我们刻意不依赖单一叙述来源：器物的形制来自实物与图录，年代来自纪年器与地层，流通来自航运与关税记录，解释则明确标为团队判断。凡属团队推断处，正文均用「我们认为」「可以推测」标示。",
+      "en": "Method: museum catalogues for typology; excavation reports for kiln sites and dating; trade history and company archives for circulation; material-culture studies for synthesis. Team inferences are flagged as such."
+    },
+    {
+      "n": 2,
+      "src": "器物与图像",
+      "t": "图像使用说明 · Images",
+      "ref": "作品中的全部器物图像由团队使用 AI 图像模型生成后人工筛选修订，<b>不是文物照片</b>，页面与图注均已标注。",
+      "note": "我们选择不用馆藏照片，一是版权，二是我们希望读者把注意力放在「形制与纹样如何被转译」而不是某一件具体藏品上。图像的作用是示意，不是著录。",
+      "en": "All object images are AI-generated and human-edited, not photographs of museum objects; labels state this. Using generated images avoids rights issues and keeps attention on typology and ornament rather than on one specific collection piece."
+    },
+    {
+      "n": 3,
+      "src": "历史分期",
+      "t": "分期依据 · Periodisation",
+      "ref": "十二章的划分依据是可观测的转折点：窑业格局变化、釉下钴蓝技术的成熟、御窑制度的确立、全球贸易的接入、原料与燃料压力、外销市场的形成。",
+      "note": "我们没有沿用任何现成的分期框架，而是按「技术—制度—贸易」三条线索各自找转折点，再合并。这也是为什么本作品的时间轴节点之间间距并不相等：节点密度反映的是变化速度，不是时间长度。",
+      "en": "The twelve sections follow observable turning points in technology, institutions and trade rather than an existing periodisation. Node spacing in the timeline reflects the speed of change, not equal time."
+    },
+    {
+      "n": 4,
+      "src": "数据与可核验性",
+      "t": "数据来源与复算 · Data",
+      "ref": "作品的全部结构数据（术语、时间线、港口、航线、器物、转译网络）以 JSON 开放，并附数据字典与校验脚本，任何声明都可由脚本复算。",
+      "note": "我们无法要求读者相信「270 条」这样的数字，所以把它变成可以运行的东西：`01_作品本体/数据/` 是导出结果，`测试脚本/validate_data.py` 是复算方式。",
+      "en": "All structured data is published as JSON with a schema document and a validation script, so counts can be recomputed rather than taken on trust."
+    },
+    {
+      "n": 5,
+      "src": "边界与致谢",
+      "t": "本作品没有做什么 · Scope",
+      "ref": "本作品不是一部通史，也不是考古报告；它是一部面向公众与课堂的<b>理解框架</b>。凡涉及具体藏品、具体价格、具体年份的争议，本作品不展开。",
+      "note": "我们明确承认三个边界：① 不覆盖明清以外的长时间段；② 不处理技术检测数据（如胎釉成分）；③ 不替代任何学术专著。作品的价值在于把已有研究组织成一个可以走进去的结构。",
+      "en": "This is an interpretive framework for the public and the classroom, not a general history nor an excavation report. Three stated limits: outside the late imperial period; no compositional analysis; not a substitute for scholarly monographs."
+    },
+    {
+      "n": 6,
+      "src": "参考资源",
+      "t": "参考资源与延伸阅读 · References & further reading",
+      "ref": "本作品在选题与研究阶段参考了下列公开来源；它们<b>只是参考</b>，本作品不复制其表达、不含任何著作的译文：<br>① <b>《蓝白之城》（The City of Blue and White）</b>——研究景德镇青花瓷与早期近代世界的英文学术专著，本作品<b>选题阶段的重要参考之一</b>（著录信息见团队备查材料）；<br>② 中国硅酸盐学会主编《中国陶瓷史》，文物出版社；<br>③ 冯先铭主编《中国古陶瓷图典》，文物出版社；<br>④ Rose Kerr &amp; Nigel Wood, <i>Science and Civilisation in China</i>, Vol. 5, Part 12: <i>Ceramic Technology</i>, Cambridge University Press；<br>⑤ 大英博物馆、大都会艺术博物馆、故宫博物院等机构的<b>公开藏品数据库</b>；<br>⑥ 荷兰东印度公司（VOC）相关贸易档案与公开贸易史研究；<br>⑦ 公开的水下考古与沉船调查报告。",
+      "note": "为什么把参考来源写出来：一部面向公众与课堂的作品，读者有权知道结论从哪里来。我们把这些来源列在这里，同时也把边界写清楚——它们是<b>背景与佐证</b>，不是本作品的底本；本作品的文字、数据、可视化与代码均为团队原创。",
+      "en": "References (public sources consulted during research and writing; cited as background, not as a base text — the work contains no translation of any of them): (1) <i>The City of Blue and White</i>, an English-language monograph on Jingdezhen porcelain and the early modern world — one of the team's key references at the topic stage; (2) <i>History of Chinese Ceramics</i>, ed. Chinese Ceramic Society; (3) Feng Xianming, ed., <i>Illustrated Dictionary of Ancient Chinese Ceramics</i>; (4) Rose Kerr &amp; Nigel Wood, <i>Science and Civilisation in China</i>, Vol. 5, Part 12: <i>Ceramic Technology</i>, Cambridge University Press; (5) public collection databases of the British Museum, the Metropolitan Museum of Art and the Palace Museum; (6) Dutch East India Company (VOC) trade archives and published trade history; (7) published underwater-archaeology and shipwreck reports."
+    }
+  ]
+}
