@@ -373,7 +373,7 @@ function renderRouteFilter() {
       : ROUTES.filter(r => routeOcean(r) === o.k).length;
     return `<button class="cat-chip ${ROUTE_FILTER === o.k ? 'on' : ''}"
       onclick="setRouteFilter('${o.k}')">${LANG === 'en' ? o.en : o.zh}
-      <span style="opacity:.65">(${n})</span></button>`;
+      <span class="chip-n">(${n})</span></button>`;
   }).join('');
 }
 function setRouteFilter(k) { ROUTE_FILTER = k; renderRouteFilter(); applyRouteFilter(); }
@@ -821,11 +821,11 @@ let CAT_CUR = 'all';
 
 function renderCats() {
   const box = document.getElementById('catChips');
-  let h = `<button class="cat-chip ${CAT_CUR === 'all' ? 'on' : ''}" onclick="setCat('all')">全部 All <span style="opacity:.65">(${GLOSSARY.length})</span></button>`;
+  let h = `<button class="cat-chip ${CAT_CUR === 'all' ? 'on' : ''}" onclick="setCat('all')">全部 All <span class="chip-n">(${GLOSSARY.length})</span></button>`;
   CATS.forEach(c => {
     const n = GLOSSARY.filter(g => g.key === c.key).length;
     if (!n) return;
-    h += `<button class="cat-chip ${CAT_CUR === c.key ? 'on' : ''}" onclick="setCat('${c.key}')">${LANG === 'en' ? c.en : c.zh} <span style="opacity:.65">(${n})</span></button>`;
+    h += `<button class="cat-chip ${CAT_CUR === c.key ? 'on' : ''}" onclick="setCat('${c.key}')">${LANG === 'en' ? c.en : c.zh} <span class="chip-n">(${n})</span></button>`;
   });
   box.innerHTML = h;
 }
@@ -1032,7 +1032,7 @@ function renderTermsChart() {
   const max = Math.max(...counts.map(c => c.n));
   const box = document.getElementById('termsChart');
   if (!box) return;
-  box.innerHTML = `<h4>${LANG === 'en' ? 'Distribution by category' : '门类分布 · Distribution'}</h4>
+  box.innerHTML = `<h3>${LANG === 'en' ? 'Distribution by category' : '门类分布 · Distribution'}</h3>
     <div class="tch-bars">` + counts.map(c => `
       <div class="tch-row">
         <span class="tch-label">${LANG === 'en' ? c.en : c.zh}</span>
@@ -1086,7 +1086,7 @@ function renderNotes() {
   document.getElementById('notesList').innerHTML = NOTES.map(x => `
     <div class="card note-pair">
       <span class="note-num">${x.n}</span>
-      <div style="font-size:12.5px;color:var(--copper);font-family:var(--f-sans);margin-bottom:8px">${x.src} · ${x.t}</div>
+      <div style="font-size:12.5px;color:var(--copper-ink);font-family:var(--f-sans);margin-bottom:8px">${x.src} · ${x.t}</div>
       <div class="note-ref"><b>来源与方法 · SOURCE & METHOD</b>${x.ref}</div>
       <div class="note-why"><b>处理说明 · TEAM NOTE</b>${x.note}</div>
       <div class="note-en"><b>ENGLISH · TEAM-WRITTEN</b>${x.en}</div>
