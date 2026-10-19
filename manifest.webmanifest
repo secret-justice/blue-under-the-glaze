@@ -1,0 +1,27 @@
+{
+  "name": "釉下之蓝 · Blue Under the Glaze",
+  "short_name": "釉下之蓝",
+  "description": "中英双语交互式数字出版物：景德镇青花瓷与早期近代世界",
+  "lang": "zh-Hans",
+  "dir": "ltr",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F1EA",
+  "theme_color": "#12293D",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
