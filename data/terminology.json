@@ -1,0 +1,1953 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "glossary",
+  "count": 270,
+  "records": [
+    {
+      "en": "porcelain",
+      "zh": "瓷器",
+      "note": "区别于 stoneware",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "High-fired vitrified ceramic; distinct from stoneware and earthenware."
+    },
+    {
+      "en": "stoneware",
+      "zh": "炻器",
+      "note": "艺术史标准译法，非\"粗瓷/陶器\"",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Standard art-historical term for 炻器; not 'coarse porcelain' or 'pottery'."
+    },
+    {
+      "en": "glazed stoneware",
+      "zh": "釉面炻器 / 上釉炻器",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Stoneware with a vitreous surface layer."
+    },
+    {
+      "en": "earthenware",
+      "zh": "陶器",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Low-fired porous pottery; distinct from stoneware and porcelain."
+    },
+    {
+      "en": "whiteware",
+      "zh": "白胎器 / 白瓷类",
+      "note": "视语境",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Any white-bodied ceramic; the term is contextual."
+    },
+    {
+      "en": "blue and white",
+      "zh": "青花（瓷）",
+      "note": "全书核心词，统一译\"青花\"",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "The core term of the book; rendered consistently as 青花 throughout."
+    },
+    {
+      "en": "qingbai (ware)",
+      "zh": "青白瓷（青白釉瓷）",
+      "note": "亦称\"影青\"",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Qingbai / yingqing ware; the bluish-white porcelain of the Song."
+    },
+    {
+      "en": "luanbai / egg-white glaze",
+      "zh": "卵白釉",
+      "note": "元代御用釉",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Yuan imperial glaze with an opaque, egg-white texture."
+    },
+    {
+      "en": "bluish-white /yingqing",
+      "zh": "青白 / 影青",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "white (as in \"Circulations of White\")",
+      "zh": "白瓷（白色器物）",
+      "note": "语境义，非颜色\"白色\"",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "green-glazed",
+      "zh": "绿釉（的）",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "lavender-coloured glaze",
+      "zh": "紫釉 / 茄皮紫釉",
+      "note": "依器物而定",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "celadon",
+      "zh": "青瓷",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Green-glazed stoneware; a Western term of uncertain origin."
+    },
+    {
+      "en": "underglaze",
+      "zh": "釉下",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Pigment painted beneath the glaze, fired with the body."
+    },
+    {
+      "en": "overglaze",
+      "zh": "釉上",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Enamel applied over a fired glaze and refired at lower temperature."
+    },
+    {
+      "en": "underglaze painted decoration",
+      "zh": "釉下彩绘（装饰）",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "cobalt / cobalt blue",
+      "zh": "钴料 / 钴蓝",
+      "note": "青花（釉下钴蓝彩）呈色料，全书核心原料",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "The colourant of blue-and-white; the book's core material."
+    },
+    {
+      "en": "cobalt ore",
+      "zh": "钴矿 / 钴料原矿",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Raw cobalt ore; imported 'sumali' cobalt versus local Yunnan material."
+    },
+    {
+      "en": "slip",
+      "zh": "化妆土 / 泥浆",
+      "note": "装饰用泥料；\"painted in slip\"=以泥浆绘",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Liquid clay used for decoration; 'painted in slip' = 以泥浆绘."
+    },
+    {
+      "en": "clay",
+      "zh": "瓷土 / 黏土",
+      "note": "泛指制胎泥料",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "General term for the plastic body material."
+    },
+    {
+      "en": "kaolin (gaoling tu)",
+      "zh": "高岭土",
+      "note": "铝质黏土，景德镇二元配方之一；得名高岭村",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Aluminous clay, one half of Jingdezhen's binary recipe; named after Gaoling village."
+    },
+    {
+      "en": "petuntse / petunse (ci shi)",
+      "zh": "瓷石（釉果）",
+      "note": "硅铝酸盐岩，二元配方之二；\"petuntse\"依原文",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "glaze-stone (you guo)",
+      "zh": "釉果",
+      "note": "制釉用瓷石（风化石英），区别于胎用瓷石",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "One of the two glaze materials of Jingdezhen."
+    },
+    {
+      "en": "glaze-ash (you hui) / glaze ash",
+      "zh": "釉灰",
+      "note": "釉的钙源（石灰岩/凤尾草灰煅烧），与釉果配釉",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "binary formula (er yuan pei fang)",
+      "zh": "二元配方（高岭土+瓷石）",
+      "note": "景德镇胎料核心工艺，决定性技术，Ch.7/8",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Kaolin plus petuntse: the Jingdezhen body recipe from the Yuan on."
+    },
+    {
+      "en": "body / paste",
+      "zh": "胎 / 胎料",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "glaze",
+      "zh": "釉",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "The glassy surface layer, applied before firing."
+    },
+    {
+      "en": "glaze recipe",
+      "zh": "釉料配方",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "kiln",
+      "zh": "窑",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "imperial kilns",
+      "zh": "御窑（厂）",
+      "note": "明代\"御器厂\"亦可",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "The Ming and Qing official kilns at Jingdezhen (御窑)."
+    },
+    {
+      "en": "private kilns",
+      "zh": "民窑",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "official (temple) kilns",
+      "zh": "官窑",
+      "note": "注意与\"imperial kilns 御窑\"区分语境：官窑泛指官府窑业，御窑特指景德镇为宫廷烧造者",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "kiln wasters / wasters",
+      "zh": "窑废品 / 残次器",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "shard / sherd",
+      "zh": "瓷片 / 碎片",
+      "note": "\"shard market\"=瓷片市场",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "kiln transformation",
+      "zh": "窑变",
+      "note": "釉色窑内偶然变化，Ch.5 亦作隐喻",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "glaze fault / defect",
+      "zh": "釉弊 / 缺陷",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "iron oxide (pigment)",
+      "zh": "铁料 / 氧化铁",
+      "note": "釉下褐彩呈色料，早于钴料",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "tianmu / temmoku",
+      "zh": "天目（黑釉）",
+      "note": "建窑/吉州黑釉茶盏",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "kiln load / kiln stack",
+      "zh": "一窑货 / 窑装",
+      "note": "\"whole kiln load could fail\"=整窑报废",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "brown spot(s) / discolouration",
+      "zh": "铁锈斑 / 变色",
+      "note": "苏麻离青典型\"锡光/铁锈斑\"缺陷（进口料特征）",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "firing atmosphere",
+      "zh": "窑内气氛",
+      "note": "氧化 / 还原（决定釉色与呈色）",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "iron-red / fire-red at foot (huo shi hong)",
+      "zh": "火石红（底足火石红）",
+      "note": "胎中铁质氧化所致，鉴定要点",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "crawling / glaze shrinkage / glaze crawler",
+      "zh": "缩釉",
+      "note": "釉面收缩露出胎骨",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "saggar (xiang bo)",
+      "zh": "匣钵",
+      "note": "装烧容器，保护器物、隔离窑火",
+      "cat": "基础概念",
+      "key": "basic",
+      "ne": "Fireclay box that protects wares inside the kiln."
+    },
+    {
+      "en": "setter / pad (dian bing)",
+      "zh": "垫饼 / 支垫",
+      "note": "装烧承托具",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "kiln furniture",
+      "zh": "窑具",
+      "note": "匣钵/垫饼等装烧工具总称",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "green-glazed / green-glazed ware",
+      "zh": "绿釉（瓷）",
+      "note": "早期青瓷/绿釉器",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "tea dust glaze",
+      "zh": "茶叶末釉",
+      "note": "结晶釉品种",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "incised / carved decoration",
+      "zh": "刻划花（装饰）",
+      "note": "Ch.3-5 高频",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "impressed decoration",
+      "zh": "模印（印花）装饰",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "painted decoration",
+      "zh": "笔绘（彩绘）装饰",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "slip-painted",
+      "zh": "泥浆绘（化妆土绘）",
+      "note": "早期磁州窑风格",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "underglaze brown",
+      "zh": "釉下褐彩",
+      "note": "铁料釉下绘，早于青花",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "crackle / crackled glaze",
+      "zh": "开片 / 冰裂纹",
+      "note": "釉面自然裂纹",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "porcelain body",
+      "zh": "瓷胎",
+      "note": "",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "porcelain stone",
+      "zh": "瓷石",
+      "note": "二元配方原料",
+      "cat": "基础概念",
+      "key": "basic"
+    },
+    {
+      "en": "imported cobalt / Muslim blue / huihui qing",
+      "zh": "回青 / 回回青",
+      "note": "进口（西域/波斯系）",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "sumali qing / su ma li qing (Persian)",
+      "zh": "苏麻离青 / 苏泥勃青 / 苏料",
+      "note": "进口（波斯 Sumali，元—明永乐宣德主用）",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "qinghai / qing hai liao",
+      "zh": "青料（泛指）",
+      "note": "—",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "pingdeng qing (pi tang qing)",
+      "zh": "平等青 / 陂塘青",
+      "note": "国产（江西乐平）",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "shizi qing",
+      "zh": "石子青 / 石青",
+      "note": "国产（江西高安/宜丰/上高）",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "zhe liao / zhe qing",
+      "zh": "浙料 / 浙青",
+      "note": "国产（浙江绍兴/金华）",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "zhuming liao",
+      "zh": "珠明料",
+      "note": "国产（云南）",
+      "cat": "钴料体系",
+      "key": "cobalt",
+      "ne": "Yunnan cobalt ore used in the Kangxi period."
+    },
+    {
+      "en": "yang lan / jiu cai bian",
+      "zh": "洋蓝 / 韭菜边",
+      "note": "晚清进口/民窑料",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "blended (huiqing + shizi qing)",
+      "zh": "回青+石子青 配比料",
+      "note": "明嘉万官窑典型配方",
+      "cat": "钴料体系",
+      "key": "cobalt"
+    },
+    {
+      "en": "yingqing / bluish-white",
+      "zh": "影青 / 青白",
+      "note": "青白瓷别称",
+      "cat": "釉色",
+      "key": "glaze"
+    },
+    {
+      "en": "shufu (glaze)",
+      "zh": "枢府釉 / 卵白釉",
+      "note": "元代官用白釉，名出\"枢府\"机构",
+      "cat": "釉色",
+      "key": "glaze",
+      "ne": "Yuan 'shufu'-marked opaque white glaze."
+    },
+    {
+      "en": "tianbai / sweet-white (Yongle)",
+      "zh": "甜白（釉）",
+      "note": "明永乐景德镇白釉名品",
+      "cat": "釉色",
+      "key": "glaze"
+    },
+    {
+      "en": "celadon (longquan)",
+      "zh": "青瓷（龙泉青瓷）",
+      "note": "",
+      "cat": "釉色",
+      "key": "glaze"
+    },
+    {
+      "en": "monochrome / colour glaze (yan se you)",
+      "zh": "颜色釉",
+      "note": "铜红/霁蓝/娇黄等单色釉总称",
+      "cat": "釉色",
+      "key": "glaze"
+    },
+    {
+      "en": "copper-red / underglaze red (you li hong)",
+      "zh": "釉里红",
+      "note": "铜红釉下彩，与青花并称",
+      "cat": "釉色",
+      "key": "glaze"
+    },
+    {
+      "en": "blue-and-white (qinghua)",
+      "zh": "青花",
+      "note": "全书核心，统一译\"青花\"",
+      "cat": "釉色",
+      "key": "glaze",
+      "ne": "青花 — the book's core term."
+    },
+    {
+      "en": "throwing (on wheel)",
+      "zh": "拉坯",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "moulding / mould-made",
+      "zh": "模制",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "glazing",
+      "zh": "上釉",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "firing",
+      "zh": "烧成 / 窑火",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "bisque firing",
+      "zh": "素烧",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "glost firing",
+      "zh": "釉烧",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "pounding clay",
+      "zh": "舂泥 / 捣泥",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "water-powered hammers / mortars",
+      "zh": "水碓",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "levigation / elutriation",
+      "zh": "淘洗",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "enameling",
+      "zh": "加彩 / 施彩",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "incising / carving",
+      "zh": "刻划",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "impressing",
+      "zh": "模印",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "appliqué",
+      "zh": "贴花",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "transfer printing",
+      "zh": "贴花（转印）",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "mould / to perfect a mould (xiu 修) vs make (zao 造)",
+      "zh": "模具（范）/ 修模 vs 造模",
+      "note": "Ch.11 唐英论量产一致性",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "identical / repeatable (wenhe)",
+      "zh": "一致 / 划一",
+      "note": "量产标准",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "slip-trailed / painted in slip",
+      "zh": "泥浆描画 / 以泥浆绘",
+      "note": "",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "brush-painted decoration",
+      "zh": "笔绘装饰",
+      "note": "釉下笔绘为青花前身",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "shoulder-load firing fuel",
+      "zh": "窑柴（按肩挑量计）",
+      "note": "见度量衡 gang",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "boat-fuel vs river-fuel",
+      "zh": "船柴 vs 水流柴",
+      "note": "Ch.8 干湿窑柴之别",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "dragon kiln (long yao)",
+      "zh": "龙窑",
+      "note": "依山而建的长斜坡窑，南方典型",
+      "cat": "工艺窑炉",
+      "key": "craft",
+      "ne": "A climbing kiln built along a hillside."
+    },
+    {
+      "en": "horseshoe / mantou kiln (man tou yao)",
+      "zh": "馒头窑",
+      "note": "北方半倒焰窑，豫冀晋常见",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "gourd-shaped kiln (hu lu yao)",
+      "zh": "葫芦窑",
+      "note": "景德镇元明典型窑形（龙窑→葫芦窑→蛋形窑演变）",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "egg-shaped kiln (dan xing yao / zhen yao)",
+      "zh": "蛋形窑 / 镇窑",
+      "note": "清初景德镇定型窑，唐英后主流",
+      "cat": "工艺窑炉",
+      "key": "craft",
+      "ne": "Jingdezhen's distinctive kiln form from the Ming."
+    },
+    {
+      "en": "climbing kiln / stepped kiln",
+      "zh": "阶级窑",
+      "note": "龙窑变体，多级",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "stacked firing / over-under stacking",
+      "zh": "叠烧 / 支烧",
+      "note": "一匣多件的装烧方式",
+      "cat": "工艺窑炉",
+      "key": "craft"
+    },
+    {
+      "en": "underglaze blue (qinghua)",
+      "zh": "釉下青花",
+      "note": "钴料绘于胎上、施釉高温烧成",
+      "cat": "彩饰体系",
+      "key": "deco",
+      "ne": "The blue of blue-and-white, painted beneath the glaze."
+    },
+    {
+      "en": "blue-and-white with underglaze red",
+      "zh": "青花釉里红",
+      "note": "二者合绘",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "doucai / contending colours",
+      "zh": "斗彩",
+      "note": "釉下青花+釉上彩拼斗，成化名品",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "wucai / five colours",
+      "zh": "五彩",
+      "note": "釉上多彩（含青花者称\"青花五彩\"）",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "famille rose / fencai / ruancai",
+      "zh": "粉彩",
+      "note": "清雍正后釉上彩，含玻璃白",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "falangcai / cloisonné enamel",
+      "zh": "珐琅彩",
+      "note": "清宫御用釉上珐琅彩",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "monochrome glaze (yan se you)",
+      "zh": "颜色釉（单色釉）",
+      "note": "铜红/霁蓝/娇黄/孔雀绿等",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "clobbered / over-painted export",
+      "zh": "后加彩（外销补彩）",
+      "note": "欧洲对青花再加釉上彩",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "blanc de Chine (China white, Dehua)",
+      "zh": "中国白（德化白瓷）",
+      "note": "福建德化，与景德镇并立的白瓷中心",
+      "cat": "彩饰体系",
+      "key": "deco",
+      "ne": "Dehua's ivory-white porcelain."
+    },
+    {
+      "en": "Swatow / Zhangzhou ware",
+      "zh": "汕头器（漳州窑外销瓷）",
+      "note": "明晚期闽南外销青花/五彩",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "kraak (porcelain)",
+      "zh": "克拉克瓷",
+      "note": "开光式外销青花，得名葡式大帆船",
+      "cat": "彩饰体系",
+      "key": "deco",
+      "ne": "Export blue-and-white of the Wanli period, named after the carrack."
+    },
+    {
+      "en": "famille verte / green family",
+      "zh": "绿彩（康熙硬彩）",
+      "note": "釉上绿调彩",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "polychrome",
+      "zh": "多彩瓷 / 多色釉上彩",
+      "note": "釉上多色装饰总称",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "iron-painted / iron-brown",
+      "zh": "铁绘 / 铁褐彩",
+      "note": "以铁料绘褐色纹饰",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "sgraffiato",
+      "zh": "剔花 / 划花填彩",
+      "note": "刻去化妆土露出胎色再施釉，波斯对中国瓷的模仿技法",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "iron-red",
+      "zh": "铁红 / 矾红",
+      "note": "以氧化铁为呈色剂的釉上红彩",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "famille noire",
+      "zh": "黑彩 / 墨地彩",
+      "note": "釉上黑地多彩，康熙外销",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "reserve / reserved panel",
+      "zh": "开光 / 留白开光",
+      "note": "kraak 瓷典型构图：主纹饰留框、其余填满小花",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "peacock green",
+      "zh": "孔雀绿釉",
+      "note": "铜绿釉色",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "turquoise",
+      "zh": "绿松石釉 / 孔雀蓝",
+      "note": "铜蓝釉色",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "kraak dish / kraak bowl",
+      "zh": "克拉克盘 / 克拉克碗",
+      "note": "典型外销器型",
+      "cat": "彩饰体系",
+      "key": "deco"
+    },
+    {
+      "en": "meiping (vase)",
+      "zh": "梅瓶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape",
+      "ne": "Plum-blossom vase: tall-shouldered, narrow-necked."
+    },
+    {
+      "en": "zun (ritual jar)",
+      "zh": "尊",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "censer / incense burner",
+      "zh": "香炉",
+      "note": "（与上 censer 合并参考）",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "altar vase",
+      "zh": "供瓶 / 净瓶",
+      "note": "吉州窑\"altar vase\"多译净瓶/供瓶",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "stem cup",
+      "zh": "高足杯",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "tea bowl",
+      "zh": "茶碗",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "bowl",
+      "zh": "碗",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "dish",
+      "zh": "盘",
+      "note": "浅而大者译\"盘\"，深者\"碗\"依语境",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "plate",
+      "zh": "碟 / 盘",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "jar",
+      "zh": "罐",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "vase",
+      "zh": "瓶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "box",
+      "zh": "盒",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "pillow",
+      "zh": "枕（瓷枕）",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "ewer",
+      "zh": "执壶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "bottle",
+      "zh": "瓶 / 壶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "snuff bottle",
+      "zh": "鼻烟壶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "statuette / figurine",
+      "zh": "塑像 / 俑 / 小像",
+      "note": "\"unglazed statuettes\"=素烧小像",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "bead",
+      "zh": "珠 / 串珠",
+      "note": "\"necklaces of glazed ceramic beads\"=釉珠项链",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "prunus vase / blossom vase",
+      "zh": "梅瓶 / 赏瓶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "gourd-shaped bottle / double gourd",
+      "zh": "葫芦瓶 / 双葫芦瓶",
+      "note": "Ch.10 御用嘉靖器",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "guan (wine jar)",
+      "zh": "罐（酒罐）",
+      "note": "Ch.5 \"wine jar or guan\"",
+      "cat": "器型",
+      "key": "shape",
+      "ne": "A jar form used for wine and storage."
+    },
+    {
+      "en": "fish bowl / fishbowl vat",
+      "zh": "鱼缸",
+      "note": "大器，高逾 80cm，Ch.9/12 易烧塌",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "cistern (for water)",
+      "zh": "大缸 / 水缸",
+      "note": "宫中防火储水",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "klapmuts",
+      "zh": "花口折沿碗（荷式深盘\"klapmuts\"）",
+      "note": "保留原词+译注，Ch.11 静物画",
+      "cat": "器型",
+      "key": "shape",
+      "ne": "Shallow bowl with an everted rim, named after a Dutch hat."
+    },
+    {
+      "en": "covered jar",
+      "zh": "盖罐",
+      "note": "有盖的罐",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "kendï (water jug)",
+      "zh": "坎迪水壶",
+      "note": "伊斯兰世界用器，影响青花器型设计",
+      "cat": "器型",
+      "key": "shape",
+      "ne": "Southeast Asian water vessel form adopted in China."
+    },
+    {
+      "en": "pear-shaped bottle",
+      "zh": "梨形瓶",
+      "note": "伊斯兰世界传入的器型",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "moon flask / pilgrim flask",
+      "zh": "宝月瓶 / 扁壶",
+      "note": "典型外销器型",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "yuhuchun vase",
+      "zh": "玉壶春瓶",
+      "note": "经典青花器型",
+      "cat": "器型",
+      "key": "shape",
+      "ne": "Pear-shaped 'spring in a jade flask' bottle."
+    },
+    {
+      "en": "gu",
+      "zh": "觚",
+      "note": "青铜器型演变的瓷器造型",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "brush washer",
+      "zh": "笔洗",
+      "note": "文房用器",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "wrist-rest",
+      "zh": "臂搁 / 笔搁",
+      "note": "文房用器",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "toothpick holder",
+      "zh": "剔牙杖筒 / 剔红",
+      "note": "小型实用器",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "salt",
+      "zh": "盐罐 / 调味器",
+      "note": "西餐餐具",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "potiche-shaped jar",
+      "zh": "罐（potiche 式）",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "cosmetics box",
+      "zh": "粉盒 / 妆盒",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "tall-necked bottle",
+      "zh": "长颈瓶",
+      "note": "",
+      "cat": "器型",
+      "key": "shape"
+    },
+    {
+      "en": "dragon",
+      "zh": "龙",
+      "note": "\"three-clawed dragon\"=三爪龙；\"five-clawed\"=五爪龙",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "phoenix",
+      "zh": "凤 / 凤凰",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "chrysanthemum",
+      "zh": "菊 / 菊花",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "plantain (leaves)",
+      "zh": "芭蕉（叶）",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "prunus and crescent moon",
+      "zh": "梅月纹 / 月影梅",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "rosette(s)",
+      "zh": "团花",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "foliated rim",
+      "zh": "花口 / 葵口",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "wave / waves",
+      "zh": "浪涛 / 海水纹",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "lotus",
+      "zh": "莲 / 莲花纹",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "peony",
+      "zh": "牡丹",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "floral / flower",
+      "zh": "花卉 / 花",
+      "note": "\"floral decoration\"=花卉装饰",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "insect",
+      "zh": "草虫 / 虫",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "niche-shaped detail",
+      "zh": "龛形纹样",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "scroll / scrollwork",
+      "zh": "卷草纹",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "cloud",
+      "zh": "云纹 / 云气",
+      "note": "",
+      "cat": "装饰母题",
+      "key": "motif"
+    },
+    {
+      "en": "Jingdezhen",
+      "zh": "景德镇",
+      "note": "全书地理核心",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "The porcelain capital of China; the book's central place."
+    },
+    {
+      "en": "Jizhou ware",
+      "zh": "吉州窑（瓷）",
+      "note": "江西吉安",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "Jiangxi kiln known for leaf and paper-cut decoration."
+    },
+    {
+      "en": "Cizhou ware",
+      "zh": "磁州窑（瓷）",
+      "note": "河北",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "Northern kiln group known for bold slip decoration."
+    },
+    {
+      "en": "Cizhou-type",
+      "zh": "磁州窑系 / 磁州类型",
+      "note": "",
+      "cat": "窑口名物",
+      "key": "kiln"
+    },
+    {
+      "en": "Ding ware / Ding porcelain",
+      "zh": "定窑（瓷）",
+      "note": "河北曲阳",
+      "cat": "窑口名物",
+      "key": "kiln"
+    },
+    {
+      "en": "Yonghe",
+      "zh": "永和镇",
+      "note": "吉州窑所在",
+      "cat": "窑口名物",
+      "key": "kiln"
+    },
+    {
+      "en": "Longquan",
+      "zh": "龙泉窑",
+      "note": "",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "The great celadon kiln complex of Zhejiang."
+    },
+    {
+      "en": "the David vases",
+      "zh": "大维德瓶（至正十一年款青花瓶）",
+      "note": "1351 年款，断代标杆",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "The dated 1351 Yuan vases that anchor blue-and-white chronology."
+    },
+    {
+      "en": "blue-and-white of the Yuan",
+      "zh": "元青花",
+      "note": "",
+      "cat": "窑口名物",
+      "key": "kiln"
+    },
+    {
+      "en": "transitional porcelain",
+      "zh": "转变期瓷器",
+      "note": "明末清初",
+      "cat": "窑口名物",
+      "key": "kiln",
+      "ne": "Ware of the Ming–Qing transition, c. 1620–1683."
+    },
+    {
+      "en": "circulation (of things/people/ideas)",
+      "zh": "（物/人/观念的）流动",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "The book's central organising concept."
+    },
+    {
+      "en": "mobility",
+      "zh": "流动性 / 移动",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "commodity",
+      "zh": "商品",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "A good produced for exchange; porcelain as the first global one."
+    },
+    {
+      "en": "global art market",
+      "zh": "全球艺术市场",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "antiquities of mixed provenance",
+      "zh": "来源混杂的古物",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "archaeological excavation",
+      "zh": "考古发掘",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "shipwreck",
+      "zh": "沉船",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Wreck sites such as the Belitung that date and locate cargoes."
+    },
+    {
+      "en": "cargo",
+      "zh": "船货",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "dhow",
+      "zh": "阿拉伯帆船 / 独桅帆船",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Arab lateen-rigged ship of the Indian Ocean trade."
+    },
+    {
+      "en": "trade diaspora",
+      "zh": "贸易侨居群 / 商帮",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "consumption",
+      "zh": "消费",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "material culture",
+      "zh": "物质文化",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "The study of objects in social life."
+    },
+    {
+      "en": "early modern world",
+      "zh": "早期近代世界",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Circa 1500–1800, when oceanic trade first linked the globe."
+    },
+    {
+      "en": "long seventeenth century",
+      "zh": "漫长的十七世纪",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "The Ming–Qing transition and the VOC trade, c. 1550–1700."
+    },
+    {
+      "en": "VOC / Dutch East India Company",
+      "zh": "荷兰东印度公司（VOC）",
+      "note": "首现括注 VOC，之后可用 VOC",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "English (British) East India Company",
+      "zh": "英国东印度公司（EIC）",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "The English chartered company trading in tea and porcelain."
+    },
+    {
+      "en": "Estado da Índia (Portuguese)",
+      "zh": "葡属印度（Estado da Índia）",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "carrack (Port. nau)",
+      "zh": "克拉克大帆船 / 葡式大帆船（nau）",
+      "note": "kraak 瓷得名于此",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Portuguese ocean-going merchant ship; the origin of 'kraak'."
+    },
+    {
+      "en": "entrepôt",
+      "zh": "转口港 / 集散地",
+      "note": "",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "A trans-shipment port such as Malacca or Batavia."
+    },
+    {
+      "en": "panelled / panel decoration (export)",
+      "zh": "开光（式）装饰",
+      "note": "kraak 瓷典型构图",
+      "cat": "贸易流通",
+      "key": "trade"
+    },
+    {
+      "en": "still life (painting)",
+      "zh": "静物画",
+      "note": "荷兰静物画中的青花",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Dutch still lifes that record Chinese porcelain."
+    },
+    {
+      "en": "translation across materials",
+      "zh": "跨材质转译",
+      "note": "银器→瓷、瓷→陶等母题移植，全书方法论关键词",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "The book's argument: blue-and-white reworked in other materials."
+    },
+    {
+      "en": "proto-industrialization",
+      "zh": "原始工业化 / 前工业化",
+      "note": "Ch.8 Pat Hudson 概念",
+      "cat": "贸易流通",
+      "key": "trade",
+      "ne": "Rural manufacturing for distant markets before factory industry."
+    },
+    {
+      "en": "tael",
+      "zh": "两（银两）",
+      "note": "货币/重量单位",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "fen",
+      "zh": "分",
+      "note": "两之下（1 两=10 钱=100 分）",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "catty / jin",
+      "zh": "斤",
+      "note": "重量",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "gang (shoulder-load unit)",
+      "zh": "杠 / 肩挑量",
+      "note": "Ch.8 窑柴计量单位，一\"杠\"=一肩挑",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "picul / dan",
+      "zh": "担 / 石",
+      "note": "容量/重量",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "price edict / fixed price",
+      "zh": "定价（榜文）/ 平价",
+      "note": "官府抑柴价",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "tengyong / tengyon (price surge)",
+      "zh": "腾涌（物价飞涨）",
+      "note": "Ch.8 柴价腾涌",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "hoarding",
+      "zh": "囤积",
+      "note": "",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "corvée / labour service",
+      "zh": "徭役 / 力役",
+      "note": "",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "tribute (system)",
+      "zh": "朝贡（体系）/ 贡",
+      "note": "",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "levy / tax in kind",
+      "zh": "实物税 / 抽分",
+      "note": "",
+      "cat": "度量经济",
+      "key": "econ"
+    },
+    {
+      "en": "lijia (system)",
+      "zh": "里甲（制）",
+      "note": "明代基层户籍/赋役编制",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "household (hu)",
+      "zh": "户",
+      "note": "户籍单位",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "civilian / military / artisan households (min/jun/jiang hu)",
+      "zh": "民户 / 军户 / 匠户",
+      "note": "三类世袭户籍",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "rotational service (lun ban)",
+      "zh": "轮班（匠）",
+      "note": "匠户轮流赴役",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "resident service (zhu zuo)",
+      "zh": "住坐（匠）",
+      "note": "常驻官营者",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "gongfu / shatufu (labourers)",
+      "zh": "工夫 / 砂土夫",
+      "note": "采土、杂役夫役",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "prefecture (Raozhou)",
+      "zh": "饶州府",
+      "note": "景德镇隶属",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "county (Fuliang)",
+      "zh": "浮梁县",
+      "note": "景德镇所在县",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "judicial commissioner (tuiguan)",
+      "zh": "推官",
+      "note": "府级司法官",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "Censorate / censor",
+      "zh": "都察院 / 御史",
+      "note": "",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "memorial (to throne)",
+      "zh": "奏疏 / 题本",
+      "note": "如徐溥、唐英之奏",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "jinshi (degree)",
+      "zh": "进士",
+      "note": "科举最高功名",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "eunuch (supervisor)",
+      "zh": "太监 / 宦官（督陶）",
+      "note": "明代督陶中官",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "superintendent of the kilns",
+      "zh": "督陶官",
+      "note": "唐英为清代典型",
+      "cat": "劳动行政",
+      "key": "labor"
+    },
+    {
+      "en": "deer (lù, homophone of 禄)",
+      "zh": "鹿（谐\"禄\"，官禄）",
+      "note": "谐音吉祥，译时可加注",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "crane / longevity",
+      "zh": "鹤 / 长寿",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "shou (longevity) character",
+      "zh": "寿（字纹）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "pine (evergreen, longevity)",
+      "zh": "松（长青、长寿）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "plum / prunus (renewal, winter)",
+      "zh": "梅（迎春、坚贞）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "bamboo (integrity)",
+      "zh": "竹（气节）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "mandarin ducks (marital bliss)",
+      "zh": "鸳鸯（夫妻和合）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "bats (fú, homophone of 福)",
+      "zh": "蝠（谐\"福\"）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "auspicious / auspiciousness",
+      "zh": "吉祥（寓意）",
+      "note": "",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "rebus / homophonic pun",
+      "zh": "谐音（寓意）/ 借喻",
+      "note": "中国纹样常见修辞，译注说明",
+      "cat": "吉祥寓意",
+      "key": "symbol"
+    },
+    {
+      "en": "export porcelain",
+      "zh": "外销瓷",
+      "note": "统一译\"外销瓷\"，非\"出口瓷\"",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "made for export",
+      "zh": "为出口烧造 / 外销专用",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "commissioned / commission",
+      "zh": "定制 / 委托烧造",
+      "note": "官方或私人委托",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "market demand",
+      "zh": "市场需求",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "consumer / consumption",
+      "zh": "消费者 / 消费",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "trade network",
+      "zh": "贸易网络",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "port of departure",
+      "zh": "出发港 / 发舶港",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "galleon",
+      "zh": "大帆船（盖伦帆船）",
+      "note": "西班牙马尼拉大帆船",
+      "cat": "外销瓷",
+      "key": "export",
+      "ne": "Spanish Pacific trading ship on the Manila route."
+    },
+    {
+      "en": "carrack / nau",
+      "zh": "克拉克大帆船 / 葡式大帆船",
+      "note": "kraak 瓷得名于此",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "fluyt / flyboat",
+      "zh": "福禄特船（VOC 商船）",
+      "note": "荷兰轻型商船",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "ship's log",
+      "zh": "航海日志",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "cargo manifest",
+      "zh": "货物清单",
+      "note": "",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "customs / customs house",
+      "zh": "海关 / 市舶司",
+      "note": "明清对应\"市舶司\"",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "made-to-order / custom-made",
+      "zh": "定制瓷（按单烧造）",
+      "note": "外销语境高频",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "armorial porcelain",
+      "zh": "纹章瓷",
+      "note": "欧洲贵族定制、绘有家族纹章的外销瓷",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Baroque",
+      "zh": "巴洛克（风格）",
+      "note": "17 世纪欧洲艺术风格，影响瓷器装饰品味",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Rococo",
+      "zh": "洛可可（风格）",
+      "note": "18 世纪欧洲艺术风格，粉彩/克拉克瓷受其影响",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "chinoiserie",
+      "zh": "中国风",
+      "note": "欧洲对中国瓷/丝/漆的审美想象与仿制",
+      "cat": "外销瓷",
+      "key": "export",
+      "ne": "European taste for Chinese-style ornament, especially in the eighteenth century."
+    },
+    {
+      "en": "Ming gap",
+      "zh": "明代空白期",
+      "note": "Roxanna Brown 概念：15 世纪中叶（正统—天顺）外销骤减",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Hatcher cargo",
+      "zh": "哈彻沉船货",
+      "note": "约 1643 年打捞，转变期瓷器代表",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Desaru shipwreck",
+      "zh": "德萨鲁沉船",
+      "note": "约 1830s，清代外销瓷",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Jesuit / Jesuit ware",
+      "zh": "耶稣会士瓷 / 教士瓷",
+      "note": "为传教士/教会定制的瓷器",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "Delftware",
+      "zh": "代尔夫特陶",
+      "note": "荷兰仿青花白釉陶器，跨材质转译典型",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "palissy-type ware",
+      "zh": "帕利西式陶",
+      "note": "法国仿中国陶瓷的自然主义陶器",
+      "cat": "外销瓷",
+      "key": "export"
+    },
+    {
+      "en": "The Folk Kilns of Jingdezhen",
+      "zh": "《景德镇民窑》/《景德镇陶录·民窑》类",
+      "note": "据上下文与《陶录》体系还原，勿直回",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "Notes on Ceramics",
+      "zh": "《陶记》（蒋祈）",
+      "note": "已定",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "The Ceramic Record of Jingdezhen",
+      "zh": "《景德镇陶录》（蓝浦）",
+      "note": "已定",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "Essentials of Modelling / Gegu yaolun",
+      "zh": "《格古要论》（曹昭）",
+      "note": "已定",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "Exploitation of the Works of Nature",
+      "zh": "《天工开物》（宋应星）",
+      "note": "已定",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "The Tao Lu / Taolu",
+      "zh": "《陶录》",
+      "note": "同《景德镇陶录》",
+      "cat": "中文文献反查",
+      "key": "refs"
+    },
+    {
+      "en": "(Jingdezhen) Ceramic Tests / Provenance studies",
+      "zh": "（景德镇）陶瓷检测 / 产地研究",
+      "note": "回译自参考书目中的中文文献题名",
+      "cat": "中文文献反查",
+      "key": "refs",
+      "ne": "A Chinese title restored from the bibliography; the original spelling is kept where the reading is uncertain."
+    }
+  ]
+}
