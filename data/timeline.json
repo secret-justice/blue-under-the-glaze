@@ -1,0 +1,115 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "timeline",
+  "count": 12,
+  "records": [
+    {
+      "x": 6,
+      "era": "1000–1200",
+      "img": "assets/scenes/s01_kiln.jpg",
+      "tz": "御选之城：景德镇崛起",
+      "te": "A city of imperial choice: the rise of Jingdezhen",
+      "pz": "宋代，昌江之畔的湖田窑开始烧造青白瓷——那种白中泛青、釉色如玉的器物，很快获得\"饶玉\"之誉。景德镇从一处窑业聚落成长为帝国最杰出的制瓷中心：窑场沿河分布，瓷土、木柴与釉灰取自环抱小镇的三面群山，成品则顺昌江而下，经鄱阳湖进入长江与大运河，抵达帝国每一个角落。",
+      "pe": "In the Song dynasty, the Hutian kilns on the banks of the Chang River began firing qingbai ware — white porcelain suffused with a pale blue-green glaze, praised as \"jade from Rao\". Jingdezhen grew from a cluster of kilns into the empire's foremost ceramic centre."
+    },
+    {
+      "x": 13,
+      "era": "10–13 世纪",
+      "tz": "白瓷的流通：东亚海域",
+      "img": "assets/scenes/s02_changjiang.jpg",
+      "te": "Circulations of white: the East Asian seas",
+      "pz": "青白瓷沿明州等港口输往高丽与日本，也随阿拉伯帆船进入印度洋。1976 年发现的新安沉船载有万余件元代瓷器，其中大量龙泉青瓷与景德镇白瓷——这是十四世纪东亚陶瓷贸易网络的实物见证。海洋考古学让我们得以称量一个时代的流动。",
+      "pe": "Qingbai ware travelled from ports such as Mingzhou to Korea and Japan, and on Arab dhows into the Indian Ocean. The Sinan shipwreck, discovered in 1976 with over ten thousand ceramic cargo items, is material testimony to fourteenth-century East Asian ceramic networks."
+    },
+    {
+      "x": 22,
+      "era": "14 世纪初",
+      "tz": "青花出现：从磁州、吉州到景德镇",
+      "img": "assets/artifacts/g10_changsha.jpg",
+      "te": "The emergence of blue and white: from Cizhou and Jizhou to Jingdezhen",
+      "pz": "釉下钴蓝装饰何时、如何在景德镇成熟？译著的答案是\"人的流动\"：磁州窑的白地黑花、吉州窑的釉下彩绘，随工匠南迁与器物流通进入江西。景德镇首次出现釉下彩绘的时间，正与吉州窑开始衰落的时期相吻合——两个窑址之间，是技艺与人的迁徙。",
+      "pe": "When and how did underglaze cobalt decoration mature at Jingdezhen? The translation's answer is \"the mobility of people\": Cizhou's white slip-painted wares and Jizhou's underglaze painting travelled south with craftsmen and circulating objects into Jiangxi."
+    },
+    {
+      "x": 29,
+      "era": "1351",
+      "img": "assets/artifacts/g02_meiping_xiaohe.jpg",
+      "tz": "大维德瓶：断代的标杆",
+      "te": "The David Vases: a benchmark for dating",
+      "pz": "伦敦大维德基金会收藏的两件青花庙堂花瓶，瓶颈釉下铭文落\"至正十一年\"（1351 年）。这一确切纪年为十四世纪中叶青花装饰的卓越品质提供了无可辩驳的证据，也成为元青花断代的标杆。瓶身纹饰与吉州窑装饰的相似，暗示着工匠的迁徙路线。",
+      "pe": "Two blue-and-white temple vases in the Percival David Collection bear an underglaze inscription dated to 1351 — irrefutable evidence for the quality of mid-fourteenth-century blue-and-white, and the benchmark for dating Yuan blue-and-white."
+    },
+    {
+      "x": 38,
+      "era": "14–15 世纪",
+      "tz": "青花与十五世纪的世界",
+      "img": "assets/scenes/s03_dhow.jpg",
+      "te": "Blue and white and the fifteenth-century world",
+      "pz": "明代御窑在珠山崛起，为宫廷烧造青花。十五世纪中叶的\"明代空白期\"，外销瓷一度骤减；而郑和下西洋的船队携带着青花瓷器，穿过马六甲，进入印度洋。青花开始以一个强盛帝国的外交与贸易为后盾，走向世界。",
+      "pe": "Ming imperial kilns rose at Zhushan, firing blue-and-white for the court. During the mid-fifteenth-century \"Ming gap\" exports briefly collapsed; yet Zheng He's fleets carried blue-and-white through Malacca into the Indian Ocean."
+    },
+    {
+      "x": 47,
+      "era": "1500–1600",
+      "tz": "青花之城：御窑与城市空间",
+      "img": "assets/artifacts/g06_bengba_hu.jpg",
+      "te": "The city of blue and white: imperial kilns and urban space",
+      "pz": "十六世纪的景德镇并非单一城镇，而是遍布全地区的窑址网络——30 多处窑场在昌江两岸运作。御窑厂踞于镇中心珠山，与十八渡、观音阁等民窑遗址共同构成\"青花之城\"的空间肌理；二元配方（高岭土加瓷石）的普及，让大件器物的烧造成为可能。",
+      "pe": "Sixteenth-century Jingdezhen was not a single town but a network of kiln sites — over thirty workshops operating along both banks of the Chang River. The imperial kiln at Zhushan formed, with private kiln sites, the spatial fabric of \"the city of blue and white\"."
+    },
+    {
+      "x": 55,
+      "era": "16 世纪 · 原料",
+      "img": "assets/scenes/s08_cobalt.jpg",
+      "tz": "资源焦虑：高岭土与窑柴",
+      "te": "Resource anxieties: kaolin and kiln firewood",
+      "pz": "大件瓷器烧造的背后是惊人的资源消耗：高岭土越采越深，窑柴按\"杠\"（一肩挑的量）计量，柴价腾涌迫使官府出榜定价。译著以\"资源焦虑\"描摹十六世纪景德镇的生态边界——瓷业的扩张如何逼近一个地区的自然极限。",
+      "pe": "Behind large-scale porcelain production lay astonishing resource consumption: kaolin dug ever deeper, kiln firewood measured in gang (shoulder-loads), and soaring fuel prices forcing the state to issue price edicts. The translation maps the ecological limits of the porcelain industry."
+    },
+    {
+      "x": 63,
+      "era": "16 世纪 · 技艺",
+      "tz": "巧手：御窑的人力与技艺",
+      "img": "assets/artifacts/g04_gaozuowan.jpg",
+      "te": "Skilled hands: labour and craft in the imperial kilns",
+      "pz": "御窑的奥秘不仅在土与火，更在人。轮班匠、住坐匠、工夫与砂土夫——明代匠户制度把全国工匠编入景德镇的窑务；劳动分工之细，从拉坯、画青到烧火、开窑，各专其业。一只鱼缸的烧成，是数百人协作的成果。",
+      "pe": "The secret of the imperial kilns lay not only in clay and fire but in people. Artisan households — rotational and resident craftsmen, labourers of every kind — were organised into Jingdezhen's kiln service. A single fish bowl was the product of hundreds of coordinated hands."
+    },
+    {
+      "x": 72,
+      "era": "16 世纪 · 贸易",
+      "img": "assets/artifacts/g05_kraak_pan.jpg",
+      "tz": "物质流通：克拉克瓷与全球贸易",
+      "te": "Circulations of things: kraak porcelain and global trade",
+      "pz": "葡萄牙的克拉克大帆船把中国瓷器运往里斯本与安特卫普；西班牙的大帆船则横渡太平洋，从马尼拉驶向阿卡普尔科，把新大陆的白银换成一船船青花。开光构图的\"克拉克瓷\"成为欧洲市场的宠儿——景德镇的作坊第一次为遥远的口味而设计。",
+      "pe": "Portuguese carracks carried Chinese porcelain to Lisbon and Antwerp; Spanish galleons crossed the Pacific from Manila to Acapulco, trading New World silver for cargoes of blue-and-white. Kraak porcelain, with its panelled decoration, was designed for distant European tastes."
+    },
+    {
+      "x": 81,
+      "era": "1602–1683",
+      "tz": "漫长十七世纪：VOC 与转变期",
+      "img": "assets/scenes/s04_galleon.jpg",
+      "te": "The long seventeenth century: the VOC and transitional wares",
+      "pz": "1602 年荷兰东印度公司（VOC）成立，瓷器很快成为其贸易的关键商品。明末清初的\"转变期瓷器\"带着新的画意与题材驶往阿姆斯特丹；荷兰代尔夫特的陶工则以锡釉陶模仿青花——一次跨材质的转译，一场欧洲对中国品味的追逐。",
+      "pe": "With the founding of the VOC in 1602, porcelain soon became a key commodity of its trade. \"Transitional wares\" of the Ming–Qing transition sailed to Amsterdam, while Delft potters imitated blue-and-white in tin-glazed earthenware — a translation across materials."
+    },
+    {
+      "x": 89,
+      "era": "18–19 世纪",
+      "tz": "中国风：欧洲的模仿与定制",
+      "img": "assets/artifacts/g08_delft.jpg",
+      "te": "Chinoiserie: European imitation and commissions",
+      "pz": "十八世纪，欧洲贵族定制绘有家族纹章的纹章瓷，广彩在欧洲口味中愈发浓艳；\"中国风\"（chinoiserie）席卷园林、瓷室与时装。青花从景德镇出发，最终成为欧洲审美想象的一部分——全球消费反过来塑造了产地的制造工艺。",
+      "pe": "In the eighteenth century European nobles commissioned armorial porcelain bearing family crests. Chinoiserie swept through gardens, porcelain rooms and fashion: global consumption came to shape the manufactures of the place of origin."
+    },
+    {
+      "x": 97,
+      "era": "2013",
+      "img": "assets/scenes/s07_shards.jpg",
+      "tz": "尾声：全球往昔的碎片",
+      "te": "Epilogue: fragments of a global past",
+      "pz": "本书始于景德镇每周一的瓷片市场，也终于此。市场上待售的瓷片，有的出自十四世纪的窑址，有的从墓中回收；窑废品曾被砸碎埋入窑址之侧。这些\"来路不明\"的碎片，恰是全球往事留下的物质证据——历史学家在碎片中辨认流动的轨迹。",
+      "pe": "The book begins and ends at Jingdezhen's Monday shard market. Shards for sale — some from fourteenth-century kiln sites, some recovered from tombs; kiln wasters once smashed and buried beside the kilns — are material evidence of a global past, from which historians trace the pathways of circulation."
+    }
+  ]
+}
