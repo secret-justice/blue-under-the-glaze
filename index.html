@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>釉下之蓝 · Blue Under the Glaze — 中英双语交互式数字出版物</title>
+  <!-- 社交分享元信息（分享链接时显示标题与摘要；不影响离线运行） -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="釉下之蓝 · Blue Under the Glaze">
+  <meta property="og:description" content="一部中英双语交互式数字出版物：从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘——一座中国瓷都的十个世纪。A bilingual interactive digital publication on Jingdezhen porcelain and the early modern world.">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blue Under the Glaze">
+  <meta name="twitter:description" content="A bilingual interactive digital publication on Jingdezhen porcelain and the early modern world.">
+  <meta name="theme-color" content="#12293D">
+
+<meta name="description" content="景德镇青花瓷与早期近代世界——团队原创的中英双语交互式数字出版物">
+<link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="theme-color" content="#12293D">
+  <meta property="og:image" content="https://raw.githubusercontent.com/secret-justice/blue-under-the-glaze/main/og_cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://secret-justice.github.io/blue-under-the-glaze/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/secret-justice/blue-under-the-glaze/main/og_cover.png">
+  <link rel="alternate" hreflang="zh-Hans" href="https://secret-justice.github.io/blue-under-the-glaze/index.html">
+  <link rel="alternate" hreflang="en" href="https://secret-justice.github.io/blue-under-the-glaze/index.html?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://secret-justice.github.io/blue-under-the-glaze/index.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "釉下之蓝 · Blue Under the Glaze",
+    "alternateName": "Blue Under the Glaze",
+    "inLanguage": ["zh-Hans", "en"],
+    "genre": "数字人文 / 交互式数字出版物",
+    "description": "一部关于景德镇青花瓷与早期近代世界的中英双语交互式数字出版物：十二章叙述、六篇原创长文、270 条双语术语库、19 个港口与 19 条航线、12 节点转译网络，零依赖离线可运行。",
+    "url": "https://secret-justice.github.io/blue-under-the-glaze/",
+    "license": "https://github.com/secret-justice/blue-under-the-glaze/blob/main/README.md",
+    "isAccessibleForFree": true,
+    "keywords": "景德镇, 青花瓷, 数字人文, 双语, 交互式出版物, 全球史, Jingdezhen, blue-and-white, digital humanities",
+    "creator": {"@type": "Organization", "name": "参赛团队（学生团队）"}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
+
+<!-- ============ 导航 ============ -->
+<nav class="nav">
+  <div class="nav-brand" onclick="scrollTo({top:0,behavior:'smooth'})">釉下之蓝<small>Blue Under the Glaze</small></div>
+  <div class="nav-links">
+    <a href="#contents" data-i18n="nav_ct">内容</a>
+      <a href="#about" data-i18n="nav_about">导语</a>
+    <a href="#timeline" data-i18n="nav_timeline">时间线</a>
+    <a href="#routes" data-i18n="nav_routes">航线图</a>
+    <a href="#gallery" data-i18n="nav_gallery">器物</a>
+    <a href="#trans" data-i18n="nav_trans">转译</a><!-- 方案C隐藏：<a href="#read" data-i18n="nav_read">长文</a> -->
+    <a href="#terms" data-i18n="nav_terms">术语库</a><!-- 方案C隐藏：<a href="#notes" data-i18n="nav_notes">方法</a> -->
+    <a href="#team" data-i18n="nav_team">团队</a>
+    <div class="lang-switch">
+      <button id="langZh" class="on" onclick="setLang('zh')">中文</button>
+      <button id="langEn" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+<main id="main">
+<div class="read-progress" id="readProgress"><i></i></div>
+
+<!-- ============ 封面 ============ -->
+<section id="cover">
+  <svg class="cover-pattern" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1200 800" aria-hidden="true">
+    <defs>
+      <pattern id="lotus" width="180" height="180" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+        <circle cx="90" cy="90" r="3" fill="#1D3E5F" opacity="0.10"/>
+        <path d="M90 62 q16 18 0 34 q-16-16 0-34z" fill="none" stroke="#1D3E5F" stroke-width="1" opacity="0.08"/>
+        <path d="M90 100 q22 0 34 14 M90 100 q-22 0-34 14" fill="none" stroke="#1D3E5F" stroke-width="1" opacity="0.07"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="800" fill="url(#lotus)"/>
+  </svg>
+  <div class="cover-inner">
+    <!-- 原创青花梅瓶插画 -->
+    <svg class="cover-vase" width="120" height="190" viewBox="0 0 120 190" aria-label="青花梅瓶">
+      <path d="M52 14 h16 v10 c0 6 14 16 22 30 c10 17 16 34 16 52 c0 26 -6 44 -18 58 c-8 9 -12 16 -12 24 h-28 c0-8-4-15-12-24 c-12-14-18-32-18-58 c0-18 6-35 16-52 c8-14 22-24 22-30z"
+            fill="#FDFCF9" stroke="#1D3E5F" stroke-width="2.2"/>
+      <path d="M44 34 c12 6 20 6 32 0" fill="none" stroke="#2A5178" stroke-width="1.4"/>
+      <path d="M38 52 c14 7 30 7 44 0" fill="none" stroke="#2A5178" stroke-width="1.4"/>
+      <path d="M36 66 c15 8 33 8 48 0" fill="none" stroke="#3D6893" stroke-width="1.2"/>
+      <!-- 缠枝莲纹带 -->
+      <g stroke="#1D3E5F" stroke-width="1.1" fill="none">
+        <path d="M34 84 q14-10 26 0 q14 10 26 0"/>
+        <circle cx="46" cy="80" r="3.2"/><circle cx="74" cy="80" r="3.2"/>
+        <path d="M46 76 q-4-7 2-10 M74 76 q4-7-2-10"/>
+        <path d="M34 100 q14-10 26 0 q14 10 26 0"/>
+        <circle cx="46" cy="96" r="3.2"/><circle cx="74" cy="96" r="3.2"/>
+        <path d="M46 92 q-4-7 2-10 M74 92 q4-7-2-10"/>
+      </g>
+      <!-- 蕉叶纹 -->
+      <g fill="#2A5178" opacity="0.85">
+        <path d="M40 112 l6 22 6-22z"/><path d="M54 112 l6 22 6-22z"/><path d="M68 112 l6 22 6-22z"/>
+      </g>
+      <path d="M36 140 c14 6 34 6 48 0" fill="none" stroke="#3D6893" stroke-width="1.2"/>
+      <path d="M40 152 c10 5 30 5 40 0" fill="none" stroke="#5B7CA0" stroke-width="1"/>
+    </svg>
+    <div class="cover-kicker">An Interactive Bilingual Digital Publication</div>
+    <h1 class="cover-title">蓝 白 之 城</h1>
+    <div class="cover-title-en">Blue Under the Glaze</div>
+    <p class="cover-sub" data-i18n="cover_sub">一座中国瓷都如何为整个世界烧造瓷器 —— 从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘。本书基于团队完成的一部英文学术专著全文中译成果制作。</p>
+    <div class="cover-meta">全国大学生数字媒体科技作品及创意竞赛 · 国际专项赛参赛作品 ｜ 2026</div>
+    <button class="cover-cta" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">进入阅读 · Enter</button>
+  </div>
+  <div class="scroll-hint">▼ 向下滚动 ▼</div>
+</section>
+
+<!-- ============ 导语 ============ -->
+<!-- 内容总览：全书十二章目录（评审 30 秒看懂内容框架） -->
+  <section id="contents" class="sec">
+    <div class="wrap">
+      <div class="sec-kicker" data-i18n="ct_kicker">CONTENTS</div>
+      <h2 class="sec-title" data-i18n="ct_title">内容总览</h2>
+      <p class="about-p" data-i18n="ct_lead">本作品以十二章组织内容，每章对应一组历史转折与一组交互模块；下表说明每章主题与其在作品中的承载方式。</p>
+      <ol class="ct-list">
+        <li><span class="ct-no">01</span><b data-i18n="ct_c1">御选之城：景德镇崛起</b><em data-i18n="ct_m1">时间线 · 封面导语</em></li>
+        <li><span class="ct-no">02</span><b data-i18n="ct_c2">白瓷的流通：东亚海域</b><em data-i18n="ct_m2">航线图</em></li>
+        <li><span class="ct-no">03</span><b data-i18n="ct_c3">青花出现：从磁州、吉州到景德镇</b><em data-i18n="ct_m3">时间线 · 器物画廊</em></li>
+        <li><span class="ct-no">04</span><b data-i18n="ct_c4">大维德瓶：断代的标杆</b><em data-i18n="ct_m4">时间线 · 长文</em></li>
+        <li><span class="ct-no">05</span><b data-i18n="ct_c5">青花与十五世纪的世界</b><em data-i18n="ct_m5">航线图 · 器物画廊</em></li>
+        <li><span class="ct-no">06</span><b data-i18n="ct_c6">御窑与城市空间</b><em data-i18n="ct_m6">时间线 · 长文</em></li>
+        <li><span class="ct-no">07</span><b data-i18n="ct_c7">资源焦虑：高岭土与窑柴</b><em data-i18n="ct_m7">术语库 · 长文</em></li>
+        <li><span class="ct-no">08</span><b data-i18n="ct_c8">巧手：御窑的人力与技艺</b><em data-i18n="ct_m8">术语库 · 跨材质转译</em></li>
+        <li><span class="ct-no">09</span><b data-i18n="ct_c9">物质流通：克拉克瓷与全球贸易</b><em data-i18n="ct_m9">航线图 · 器物画廊</em></li>
+        <li><span class="ct-no">10</span><b data-i18n="ct_c10">漫长十七世纪：VOC 与转变期</b><em data-i18n="ct_m10">时间线 · 长文</em></li>
+        <li><span class="ct-no">11</span><b data-i18n="ct_c11">中国风：欧洲的模仿与定制</b><em data-i18n="ct_m11">跨材质转译 · 器物画廊</em></li>
+        <li><span class="ct-no">12</span><b data-i18n="ct_c12">尾声：全球往昔的碎片</b><em data-i18n="ct_m12">长文 · 方法</em></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="about">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_about">Prologue · 导语</div>
+    <h2 class="sec-title" data-i18n="t_about">当一座瓷都成为世界史的入口</h2>
+    <div class="sec-title-en">When a porcelain city becomes a gateway to world history</div>
+  </div>
+  <div class="about-grid">
+    <div>
+      <p class="about-p">景德镇，江西东北部昌江之畔的一座小镇。公元十四世纪起，这里窑火不熄，为半个地球烧造瓷器。<strong>青花瓷——白底之上以钴蓝绘成的器物——是人类历史上第一种真正意义上的全球商品</strong>：从元代的波斯钴料，到明代御窑的鱼缸与克拉克瓷，从马六甲的转口贸易到阿姆斯特丹的静物画，从代尔夫特的陶工到阿卡普尔科的大帆船，一座小镇的窑业深度嵌入了早期近代世界的运转。</p>
+      <div class="about-en">Jingdezhen, a small town on the Chang River in northeast Jiangxi. From the fourteenth century onward, its kilns never cooled, firing porcelain for half the planet. Blue-and-white porcelain — white vessels painted in cobalt blue — was the first truly global commodity in human history: from Persian cobalt in the Yuan dynasty to the fish bowls of the Ming imperial kilns and kraak porcelain, from the entrepôts of Malacca to the still lifes of Amsterdam, from Delft potters to the Acapulco galleons.</div>
+      <p class="about-p">本数字出版物由参赛团队独立完成研究与写作——我们以公开的博物馆藏品、考古报告与贸易史料为基础，建成一套<strong>原创双语陶瓷术语库</strong>。在这里，历史被组织为可交互的数字体验：沿时间轴看瓷都千年窑火，沿航线图看青花环球之旅，在长文中阅读团队原创文字，在术语库中检索专业词条。</p>
+      <div class="about-en">This digital publication is built upon the team's completed scholarly translation of the author's monograph (原出版方, 2020), together with an original bilingual terminology database. The translation is re-organised here into an interactive experience: a millennium of kiln fires along the timeline, a global voyage of blue-and-white along the trade routes, selected translated passages, and a searchable terminology database.</div>
+      <p class="about-p">我们希望它同时是一扇窗与一座桥：<strong>让中文读者看见世界史中的景德镇，让世界读者看见早期近代世界中的中国</strong>。这正是"数字赋能 · 文明互鉴"的题中之义。</p>
+      <div class="about-en">We hope it serves as both a window and a bridge: for Chinese readers, a Jingdezhen seen through world history; for readers around the world, a China seen through the early modern world. This is what "digital empowerment and mutual learning among civilizations" means to us.</div>
+    </div>
+    <div class="card about-side">
+      <h3 data-i18n="about_h4">关于本作品 · About</h4>
+      <div class="fact-row"><span>原作 Original</span><b>英文学术专著 · 2020</b></div>
+      <div class="fact-row"><span>译本 Translation</span><b>团队全文中译 · 十二章</b></div>
+      <div class="fact-row"><span>原创长文 Original essays</span><b>6 essays</b></div>
+      <div class="fact-row"><span>原创术语 Original terms</span><b id="factTerms">270</b></div>
+      <div class="fact-row"><span>转译网络 Translation network</span><b>12 nodes / 14 edges</b></div>
+      <div class="fact-row"><span>交互模块 Modules</span><b>8 modules</b></div>
+      <div class="fact-row"><span>外部依赖 Dependencies</span><b>0 (offline)</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 时间线 ============ -->
+<section id="timeline">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_timeline">Timeline · 时间线</div>
+    <h2 class="sec-title" data-i18n="t_timeline">千年窑火：景德镇与青花瓷的十个世纪</h2>
+    <div class="sec-title-en">A millennium of kiln fires: Jingdezhen and blue-and-white porcelain across ten centuries</div>
+    <p class="sec-desc" data-i18n="d_timeline">点击时间轴上的节点，查看每个历史时期的窑业格局、技术变革与全球联动。内容按「技术—制度—贸易」三条线索编排为十二章。</p>
+  </div>
+  <div class="timeline-wrap">
+    <div class="timeline" id="tlRail">
+      <div class="tl-rail"></div>
+      <!-- nodes injected by JS -->
+    </div>
+  </div>
+  <div class="tl-hint">点击节点，或在本模块内按 ← → 键切换 · Click a node, or press ← → while this section is on screen</div>
+  <div class="card tl-detail show" id="tlDetail"></div>
+  <div class="tl-nav">
+    <button onclick="tlStep(-1)">← 上一节点</button>
+    <button onclick="tlStep(1)">下一节点 →</button>
+  </div>
+</section>
+
+<!-- ============ 航线图 ============ -->
+<section id="routes">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_routes">Circulation · 航线图</div>
+    <h2 class="sec-title" data-i18n="t_routes">青花的环球之旅：贸易航线示意图</h2>
+    <div class="sec-title-en">The global voyage of blue-and-white: a schematic of trade routes</div>
+    <p class="sec-desc" data-i18n="d_routes">示意图以等经纬网点阵为底，标注青花瓷贸易网络的关键港口与节点。点击港口查看其在贸易网络中的角色，或用下方筛选器按海域查看航线分层。</p>
+  </div>
+  <div class="route-filter" id="routeFilter"></div>
+  <div class="routes-grid">
+    <div class="card map-box">
+      <svg id="routeMap" viewBox="0 0 1000 520" role="img" aria-label="青花瓷贸易航线示意图"></svg>
+      <div class="map-note">示意图 · Schematic diagram — 仅示相对位置与航线关系，非精确地理投影 / Relative positions only; not a precise cartographic projection</div>
+      <div class="map-legend">
+        <span><i></i>海上航线 Maritime route</span>
+        <span><i class="solid"></i>内河与国内航线 Inland route</span>
+        <span>● 港口 Port ｜ ◆ 产地 Production site</span>
+      </div>
+    </div>
+    <div class="card port-panel" id="portPanel"></div>
+  </div>
+</section>
+
+<!-- ============ 器物画廊 ============ -->
+<section id="gallery">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_gallery">Gallery · 器物画廊</div>
+    <h2 class="sec-title" data-i18n="t_gallery">十件器物，一部全球史</h2>
+    <div class="sec-title-en">Ten objects, one global history</div>
+    <p class="sec-desc" data-i18n-html="d_gallery">从唐代长沙窑到清代贲巴壶，从景德镇窑口到代尔夫特与韦奇伍德——器物是文明互鉴最直接的证据。点击任一器物可查看大图与双语释文；右侧筛选器按其在全球网络中的位置归类。<b>图像由团队以 AI 图像模型生成并经人工筛选裁切，用于器型与纹样的呈现示意，非文物照片。</b></p>
+  </div>
+  <div class="gal-filter" id="galFilter"></div>
+  <div class="gal-grid" id="galGrid"></div>
+  <div class="gal-lightbox" id="galLightbox" onclick="if(event.target===this)closeLightbox()">
+    <figure class="gal-lb-inner">
+      <img id="galLbImg" alt="">
+      <figcaption id="galLbCap"></figcaption>
+      <div class="gal-lb-hint">← → 切换器物 · Esc 关闭 ｜ ← → browse · Esc to close</div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 跨材质转译 ============ -->
+<section id="trans">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_trans">Transmaterial · 跨材质转译</div>
+    <h2 class="sec-title" data-i18n="t_trans">一只瓷盘的四次转世</h2>
+    <div class="sec-title-en">Four lives of a single dish: transmaterial translation</div>
+    <p class="sec-desc" data-i18n="d_trans">青花从未停止旅行，也从未原样抵达。同样的钴蓝纹样，在四个世纪里换了四种材质、四种技术体系与四种消费语境。点击下方节点，追踪这件器物如何被景德镇定义、被伊万里重绘、被代尔夫特转译、被韦奇伍德纪念。</p>
+  </div>
+  <div class="trans-view">
+    <button id="tvChain" class="tv-btn on" onclick="setTransView('chain')" data-i18n="tv_chain">四次转世 · 链路视图</button>
+    <button id="tvNet" class="tv-btn" onclick="setTransView('net')" data-i18n="tv_net">转译网络 · 12 节点</button>
+  </div>
+  <div id="transChain">
+    <div class="trans-steps" id="transSteps"></div>
+    <div class="trans-panel" id="transPanel"></div>
+  </div>
+  <div id="transNet" class="trans-net" hidden></div>
+</section>
+
+<!-- ============ 长文 ============ -->
+<section id="read" hidden>
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_read">Original Essays · 原创长文</div>
+    <h2 class="sec-title" data-i18n="t_read">六个瞬间：团队原创长文</h2>
+    <div class="sec-title-en">Six moments from the translation</div>
+    <p class="sec-desc" data-i18n="d_read">六篇团队原创长文，从瓷片市场、钴料来历、窑场网络、白银与开光、材质替换讲到碎片能证明什么。中文与英文均为团队撰写，不是任何既有著作的译文。</p>
+  </div>
+  <div class="read-tabs" id="readTabs"></div>
+  <div class="card read-body show" id="readBody"></div>
+</section>
+
+<!-- ============ 术语库 ============ -->
+<section id="terms">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_terms">Terminology · 术语库</div>
+    <h2 class="sec-title" data-i18n="t_terms">原创双语陶瓷术语库</h2>
+    <div class="sec-title-en">An original bilingual terminology database of Chinese ceramics</div>
+    <p class="sec-desc" data-i18n-html="d_terms">本库是团队研究工作的基础设施：在十二章叙述中维持用词一致，覆盖基础概念、钴料体系、釉色、工艺窑炉、彩饰、器型、母题、窑口、贸易流通、外销瓷、度量经济、劳动行政、吉祥寓意与中文文献反查十四个门类。支持中英文检索。</p>
+  </div>
+  <div class="terms-toolbar">
+    <input class="terms-search" id="termSearch" type="text" placeholder="检索术语：中文 / 英文 / 注释，如 青花、cobalt、梅瓶、kraak…" oninput="renderTerms()">
+    <span class="terms-count" id="termCount"></span>
+  </div>
+  <div class="cat-chips" id="catChips"></div>
+  <div class="terms-split">
+    <div class="terms-grid" id="termsGrid"></div>
+    <div class="card terms-chart" id="termsChart"></div>
+  </div>
+</section>
+
+<!-- ============ 研究方法 ============ -->
+<section id="notes" hidden>
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_notes">Method &amp; Sources · 研究方法</div>
+    <h2 class="sec-title" data-i18n="t_notes">研究方法与资料来源：我们怎么做的，以及我们没做什么</h2>
+    <div class="sec-title-en">Scholarly notes: the rigour behind the translation</div>
+    <p class="sec-desc" data-i18n="d_notes">本作品不是译著，也没有引用任何单一著作作为底本。这里说明我们的研究方法、参考资源、图像与数据的使用限制，以及本作品明确「没有做」的三件事。</p>
+  </div>
+  <div class="notes-list" id="notesList"></div>
+</section>
+
+<!-- ============ 团队 ============ -->
+<section id="team">
+  <div class="sec-head">
+    <div class="sec-kicker" data-i18n="k_team">Team & Making · 团队与制作</div>
+    <h2 class="sec-title" data-i18n="t_team">团队、方法与制作说明</h2>
+    <div class="sec-title-en">The team, the method, and the making</div>
+  </div>
+  <div class="team-grid">
+    <div class="card team-card">
+      <h3 data-i18n="tc_0">制作分工 Division of Labour</h4>
+      <ul>
+        <li data-i18n-html="li_0"><b>研究与写作</b> — 十二章叙述与六篇长文的资料整理、写作与交叉校验 <span style="color:var(--ink-3)">（中国成员）</span></li>
+        <li data-i18n-html="li_1"><b>术语库建设</b> — 270 条双语术语对齐、跨章漂移审计、中文文献还原 <span style="color:var(--ink-3)">（中国成员）</span></li>
+        <li data-i18n-html="li_2"><b>参考资源</b> — 公开藏品数据库、考古报告与贸易史料的检索、核对与著录 <span style="color:var(--ink-3)">（中国成员）</span></li>
+        <li data-i18n-html="li_3"><b>交互设计与开发</b> — 视觉系统、时间线、航线图、长文、术语库模块 <span style="color:var(--ink-3)">（中国成员）</span></li>
+        <li data-i18n-html="li_4"><b>英文审校与国际化</b> — 界面英文文案、国际读者视角审读 <span style="color:var(--ink-3)">（国际成员）</span></li>
+        <li data-i18n-html="li_5"><b>视频制作</b> — 脚本、录制、解说合成 <span style="color:var(--ink-3)">（全体成员）</span></li>
+      </ul>
+    </div>
+    <div class="card team-card">
+      <h4 data-i18n="tc_1">研究方法 Research Method</h4>
+      <ul>
+        <li data-i18n-html="li_6"><b>Stage 0 提取清洗</b> — PDF 文本提取，修复连字、CID 噪音、页眉噪音等 11 类提取损伤</li>
+        <li data-i18n-html="li_7"><b>Stage 0.5 上下文纠错</b> — 43 条歧义词消歧规则 + PDF 回读校验</li>
+        <li data-i18n-html="li_8"><b>Stage 1 术语对齐</b> — 术语库 + 地名词典前置加载，杜绝译法漂移</li>
+        <li data-i18n-html="li_9"><b>Stage 2 三步翻译</b> — 直译 → 反思（术语/规范/去翻译腔）→ 雅化</li>
+        <li data-i18n-html="li_10"><b>Stage 3.5 质量门控</b> — 段落完整性 / 漏译检测 / 歧义闭环 / 可读性 / 术语覆盖率，五项量化评分</li>
+        <li data-i18n-html="li_11"><b>Stage 4 QA 校验</b> — 硬知识违规阻断、禁用变体扫描、来源著录交叉验证</li>
+      </ul>
+    </div>
+  </div>
+  <div class="disclose">
+    <h4 data-i18n-html="dc_0">SOURCE & AI DISCLOSURE · 资料来源与 AI 使用披露</h4>
+    <p data-i18n-html="dc_1"><b>作品性质</b>：本作品为<b>团队原创</b>的数字出版物。文本（六篇长文、十二章叙述、术语注记、研究方法说明）由团队撰写；结构化数据（术语库 270 条、时间线 12 节点、港口 19 / 航线 19、器物 10 件、转译网络 12 节点 14 边）由团队整理与建模；视觉系统、交互与全部前端代码由团队实现。<b>本作品不以任何单一著作为底本，不包含任何著作的译文。</b></p>
+    <p data-i18n-html="dc_2"><b>原创部分</b>：数字出版物的框架、视觉系统、交互设计、时间线与航线图的可视化数据组织、导语、英文摘要、术语库与全部前端代码均为团队原创；作品未使用原书插图。</p>
+    <p data-i18n-html="dc_3"><b>AI 生成视觉披露</b>：「器物画廊」与「跨材质转译」模块中的 10 张器物图像由团队使用 AI 图像模型（智谱 CogView-3-Flash）生成提示词绘制，并经人工逐张筛选、裁切与配文；图像用于呈现器型与纹样的<b>示意</b>，非文物照片，已在页面明确标注。评审视频中的 AI 影像片段由团队使用 MiniMax-H3 视频模型生成。</p>
+    <p data-i18n-html="dc_4"><b>AI 工具披露</b>：研究与写作过程中使用大语言模型辅助资料梳理与文字打磨，全部成稿经人工修订与交叉校验；前端代码与视频解说稿由人工编写、AI 辅助生成后经逐行审校修订；评审视频解说语音由 TTS 合成、字幕人工校对，背景音乐为团队程序化合成的原创音乐。AI 生成内容均经学生实质性修改与验证。</p>
+    <p data-i18n-html="dc_5"><b>版权与引用</b>：器物图像为 AI 生成示意（非文物照片），文字与数据为团队原创；所述历史事实取自公开的博物馆藏品目录、考古报告与贸易史料，属公共知识，不复制任何著作的表达。若读者发现任何表达与他人作品雷同，请告知，我们将立即修正。</p>
+    <p data-i18n-html="dc_6"><b>参考来源</b>：本作品在选题与研究阶段参考了公开的博物馆藏品数据库、考古与沉船报告、贸易史档案及若干公开出版的陶瓷史著作（含《蓝白之城》等，完整清单见「研究方法与资料来源」模块）。<b>这些只是参考来源，不是本作品的底本</b>；本作品不复制其表达，也不含任何著作的译文。</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer>
+  <div class="foot-inner">
+    <h5>釉下之蓝 · Blue Under the Glaze</h5>
+    <p>中英双语交互式数字出版物 ｜ 全国大学生数字媒体科技作品及创意竞赛 · 国际专项赛参赛作品 ｜ 2026</p>
+    <p>数字赋能 · 文明互鉴 —— Digital Empowerment · Mutual Learning Among Civilizations</p>
+    <p class="foot-en">Translation based on an English-language scholarly monograph on Jingdezhen porcelain and the early modern world. All interactive design, visual system and front-end code are original work of the student team.</p>
+  </div>
+</footer>
+
+<script src="data_glossary.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
