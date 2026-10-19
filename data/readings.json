@@ -1,0 +1,139 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "readings",
+  "count": 6,
+  "records": [
+    {
+      "id": "r1",
+      "tz": "周一清晨的瓷片市场",
+      "te": "A Monday Morning at the Shard Market",
+      "src": "团队原创长文 · Team essay",
+      "quote": "在景德镇，周一清晨的古玩市场是一场关于“碎片”的集会：地上铺着布，布上摊着碗底、盘沿、一小块一小块的青花。它们大多并不精美，也谈不上完整。",
+      "comment": "我们把这篇随笔放在全书开头，是想先立一个问题：为什么研究一个瓷都，要从最不值钱的碎片讲起？\n碎片有一个好处——它同时属于两端。它是窑场里的废品，是烧成失败、变形、沾砂、开片过大而被砸掉的产物；它也是消费的终点，是从万里之外辗转抵达、最终碎在某个人手里的器物残骸。一块碎片把「生产」与「消费」这两条通常分开叙述的线索，压进了同一个物件里。\n在景德镇的市场里，你可以按釉色、按年代、按款识来挑碎片，也可以按「它曾经属于什么样的器物」来挑。后一种挑法需要想象力：一块带龙纹的碗底，可能来自御窑的次品；一块带开光边框的青花，可能来自外销的克拉克盘。碎片的价格从来不取决于美，而取决于它能否为某个更大的叙事提供证据。\n这大概就是历史学家在碎片前俯下身的原因：他们要的不是完整，而是证据。",
+      "en": "<b>English synopsis (team-written)</b>The chapter opens at a Monday morning antiques market in Jingdezhen, where vendors sell bags of ceramic shards. From this scene the book unfolds its argument: Jingdezhen's rise as the foremost ceramic producer of the early modern world, linking a local market to global circulations of objects, people and ideas. A ninth-century Arab dhow wreck off Belitung with 70,000 ceramics proves the antiquity of this demand — yet only a few blue-and-white dishes were aboard; mass production of blue-and-white still lay five centuries ahead. <b>The argument</b>Jingdezhen's rise cannot be told as a local story. The Belitung wreck, found by fishermen in 1998 with some 70,000 ceramics aboard a ninth-century dhow, shows that the Indian Ocean trade in Chinese ceramics long predates blue-and-white — yet only a handful of those pieces carry blue decoration. Mass production of blue-painted white ware in China would take another five hundred years. What sits in a vendor's cloth bag on a Monday morning is therefore the visible end of a chain that begins on the Chang River: upstream lie the mountains with their clay, firewood and glaze ash; downstream lie Poyang Lake, the Yangtze, the Grand Canal and the empire's ports. <b>What to look for</b>The chapter's method is not anecdote but scale: it moves from a provincial market to the Indian Ocean and back, until a heap of broken bowls becomes evidence of a global past.",
+      "en1": "<b>Essay (team-written)</b>The opening essay starts from the least valuable object in the story: a bag of ceramic shards on a Monday-morning market floor in Jingdezhen.",
+      "en2": "<b>Why start here</b> A shard belongs to both ends of a long chain at once. It is kiln waste — misshapen, discoloured, cracked in the firing and smashed — and it is also the endpoint of consumption, the remains of an object that travelled thousands of miles before breaking in someone's hands. Putting both ends in one object is what lets a local market speak about a global trade.",
+      "en3": "<b>What to look for</b> In the market, pieces are sorted by glaze, period, reign mark — and also by what they can prove. A shard with a dragon roundel may come from a rejected imperial piece; a panelled border may come from an export dish. Its price tracks evidence, not beauty.",
+      "kt": [
+        "青花",
+        "景德镇",
+        "昌江",
+        "独桅帆船",
+        "早期近代世界"
+      ],
+      "img": "assets/scenes/s07_shards.jpg",
+      "capz": "图：瓷片市场 · 团队 AI 影像静帧",
+      "cape": "Image: the shard market · still from team AI footage"
+    },
+    {
+      "id": "r2",
+      "tz": "蓝色的来历：钴料与两种旧技术",
+      "te": "Where the Blue Came From",
+      "src": "团队原创长文 · Team essay",
+      "quote": "青花不是凭空出现的。在白胎上用蓝色绘画，需要三样东西同时到位：能烧到高温的瓷胎、能承受高温的钴料、以及把二者结合起来的釉下绘工艺。",
+      "comment": "先说胎。景德镇的优势不是某一种土，而是一种配比：瓷石提供可塑性与助熔成分，高岭土提供铝质骨架，两者按比例配合，才能既烧得透、又不塌。这套被后人称为「二元配方」的做法，让大型器物的烧成成为可能。\n再说蓝。钴在中东有更早的使用传统，作为一种呈色剂，它比铁更难驾驭：温度、气氛、纯度稍有偏差，颜色就会从明亮变成灰暗或发黑。早期青花常见的黑色结晶斑，多半不是缺陷，而是钴料中铁与锰比例留下的痕迹。\n最后是工艺。把钴料绘在未烧的坯体上、再罩一层透明釉、一次高温烧成——蓝色被封在釉下，永不磨损。这条路子并非景德镇首创：北方磁州窑在化妆土上绘黑花，江西吉州窑在坯体上作釉下彩绘，都已经在做「釉下绘画」这件事，只是呈色剂是铁而不是钴。工匠南下、技术与瓷土相遇，才有了白底蓝花。\n所以「青花的诞生」更像一次汇流，而不是一次发明。",
+      "en": "<b>English synopsis (team-written)</b>The two David Vases in the Percival David Collection, inscribed \"Zhizheng eleventh year\" (1351), provide irrefutable dating for the excellence of mid-fourteenth-century blue-and-white. Their decorative bands — chrysanthemum scrolls, plantain leaves and floral chains — closely parallel Yuan-dynasty Jizhou wares, suggesting that craftsmen who had once worked at Jizhou brought their repertoire south to Jingdezhen, where it met local clay and kilns. <b>The argument</b>The maturity of blue-and-white was not an isolated technical revolution but the meeting of people and materials in motion. The white-bodied, iron-painted wares of Cizhou and the underglaze-painted wares of Jizhou travelled south with migrating craftsmen into Jiangxi, where they met Jingdezhen's porcelain stone and kiln technology. The vases' layered bands — chrysanthemum scroll, pointed plantain leaves, and the dated inscription around the neck — are read here alongside Jizhou conventions, even though Jizhou potters worked with iron minerals rather than cobalt. <b>What to look for</b>The 1351 inscription is one of the very few fixed points in the chronology. Almost everything dated around it is dated by comparison with it — which is why these vases matter far beyond their beauty.",
+      "en1": "<b>Essay (team-written)</b>Blue-and-white required three things to arrive at once: a body that could take high temperature, a cobalt pigment that could survive it, and an underglaze painting technique that joined the two.",
+      "en2": "<b>The convergence</b> Jingdezhen's advantage was not a single clay but a ratio: porcelain stone for plasticity and flux, kaolin for an alumina skeleton. Cobalt was harder to control than iron — early dark crystallised spots are usually traces of the iron and manganese in the ore, not defects. And underglaze painting already existed: Cizhou painted in iron on slip, Jizhou painted underglaze. Craft migration met local clay, and the blue-on-white vocabulary appeared.",
+      "en3": "<b>What to look for</b> Treat the birth of blue-and-white as a confluence rather than an invention: technique from the north and south, pigment from afar, body from the river valley.",
+      "kt": [
+        "大维德瓶",
+        "青花",
+        "吉州窑",
+        "钴料",
+        "磁州窑"
+      ],
+      "img": "assets/artifacts/g02_meiping_xiaohe.jpg",
+      "capz": "图：元青花人物图梅瓶（示意）· 团队 AI 图像",
+      "cape": "Image: Yuan dynasty narrative meiping (illustrative) · team AI image"
+    },
+    {
+      "id": "r3",
+      "tz": "“景德镇”是一个网络，不是一个点",
+      "te": "A Network, Not a Point",
+      "src": "团队原创长文 · Team essay",
+      "quote": "地图上，景德镇只是昌江边的一个镇。但在讨论陶瓷生产时，它更像一张网：沿河分布着几十处窑场，各自烧造、彼此竞争，也彼此供给。",
+      "comment": "这张网有三层。\n第一层是行政。省、府、县、镇，层层向下，镇处在帝国行政体系的末梢。有意思的是：一个如此庞大的产业，在地方志里往往只占「物产」条下几行字，与药材、山货并列。书写的不对称，本身就是一个值得注意的历史事实。\n第二层是地理。三面环山提供原料与燃料，一条昌江负责运输：逆流而上进山取土，顺流而下经鄱阳湖入长江，再经大运河或海路通往帝国的港口。地理决定了这座镇的成本结构，也决定了它的市场半径。\n第三层是考古。窑址不是均匀分布的，而是沿河成串；湖田、瑶里、银坑坞这些地名，对应着不同时期的生产重心。考古发掘提供的不是故事，而是密度：哪里出土的废品最多，哪里就最可能是主力窑场。\n三层叠起来看，才能解释一个看似矛盾的现象：帝国边角上的一个镇，却支配着全球的高端瓷器市场。",
+      "en": "<b>English synopsis (team-written)</b>Jingdezhen was never a single town but a network of over thirty kiln sites across the region. The chapter juxtaposes three ways of imagining space: the administrative hierarchy of province-prefecture-county-town; the physical geography of mountains and river that supplied kaolin and firewood; and the archaeological network of production sites — Hutian, Yaoli, Yinkangwu — revealed only slowly by excavation. A 1525 gazetteer ranks the wares of Jingdezhen, Hutian and Macangdang, listing porcelain alongside medicinal herbs among local products. <b>The argument</b>'Jingdezhen' names a network, not a town. More than thirty kiln sites worked across the region from perhaps the eighth century onwards; the Ming imperial kilns stood in the centre of the town, with folk kilns such as Shibadu and Guanyinge around them. Three ways of imagining that space are set side by side: the administrative hierarchy of province, prefecture, county and town; the physical geography of encircling mountains and a transporting river; and the archaeological network of kiln sites along the Chang. <b>What to look for</b>A 1525 Jiangxi gazetteer lists porcelain under 'local products' beside medicinal roots — a striking measure of how little written attention this vast industry attracted at the time.",
+      "en1": "<b>Essay (team-written)</b>On a map Jingdezhen is one town on the Chang River. As a production system it is a network of dozens of kiln sites that competed with and supplied one another.",
+      "en2": "<b>Three layers</b> Administrative (province, prefecture, county, town — the town at the far end of the imperial hierarchy, its vast industry compressed into a few lines under 'local products' in a gazetteer); geographical (mountains for clay and fuel, one river for transport, downstream to the Yangtze and the sea); archaeological (kiln sites strung along the river, their density a proxy for output).",
+      "en3": "<b>What to look for</b> The written record is thin precisely where the industry was thick — an asymmetry worth noticing rather than glossing over.",
+      "kt": [
+        "御窑厂",
+        "民窑",
+        "湖田窑",
+        "昌江",
+        "高岭土"
+      ],
+      "img": "assets/scenes/s01_kiln.jpg",
+      "capz": "图：葫芦窑开窑 · 团队 AI 影像静帧",
+      "cape": "Image: opening the gourd kiln · still from team AI footage"
+    },
+    {
+      "id": "r4",
+      "tz": "白银、开光与全球口味",
+      "te": "Silver, Panels and Global Taste",
+      "src": "团队原创长文 · Team essay",
+      "quote": "十七世纪初，一艘艘帆船把瓷器运出中国，把白银运进来。货物的方向与银的方向相反，构成了一条完整的回路。",
+      "comment": "这条回路解释了为什么外销瓷的装饰会变。当明代赋役折银征收之后，白银成了刚需；而美洲的银矿经由太平洋或绕道欧洲，最终有一部分落在中国的市场上。瓷器是这条链上最合适的回程货：它体积可控、单价可分层、不怕压舱。\n买家的口味反过来塑造了产品。在欧洲，瓷器常与玻璃器、金属餐具一起陈列在专门的房间；在新西班牙，明亮的蓝色尤其受欢迎。于是出现了一种便于识别的装饰方案：把器表切成若干独立的小画面，每个画面里放一个题材——花、鸟、人物、吉祥物。这种被称为「开光」的构图，既方便批量绘制，又方便远方买家一眼认出「这是中国来的东西」。\n荷兰东印度公司的档案告诉我们另一半故事：他们不只在买，还在下单。尺寸、数量、纹样，都可以写在订单上。供给与需求之间，隔着半个地球，却已经开始对话。\n我们把这个过程叫「翻译」：不是语言的翻译，而是把一种视觉习惯，翻译进另一种生活。",
+      "en": "<b>English synopsis (team-written)</b>Chinese merchants carried porcelain to Malacca, Macao and Manila, returning with silver from Potosí at a moment when Ming taxes were commuted to silver. In Habsburg Spain porcelain was stored alongside glass and tableware; in New Spain its bright tones were coveted, especially with easily legible scenes of animals in landscapes. The panelled wares that resulted became known as kraak. With the VOC's founding in 1602, porcelain became a key commodity of the Dutch East India Company's trade. <b>The argument</b>Demand shaped production. Chinese merchants carried porcelain to Malacca, Macao and Manila and sailed home with silver from Potosí, at a moment when Ming taxes were commuted into silver and demand for the metal was unprecedented. Iberian consumers wanted recognisable scenes framed within abstract borders; the panelled, 'kraak' composition — a surface divided into independent decorative spaces — answered that taste and travelled quickly into the New World. <b>What to look for</b>The VOC, founded in 1602 with investors from all seven provinces, inherited Portuguese route knowledge and reached Banten by way of the Cape in 1595. Spices were the first objective; porcelain soon became a formidable competitor inside the same trade.",
+      "en1": "<b>Essay (team-written)</b>In the early seventeenth century sailings carried porcelain out of China and silver in — two opposite flows completing one circuit.",
+      "en2": "<b>Why decoration changed</b> Once Ming taxes were commuted into silver, the metal became a necessity; porcelain was the ideal return cargo — compact, priceable in tiers, and safe as ballast. Buyers' tastes then shaped the product: panels dividing the surface into legible fields made batch painting easier and made 'this came from China' recognisable at a glance. Company records show the other half of the story — not just buying but ordering.",
+      "en3": "<b>What to look for</b> Read export decoration as a translation of visual habit from one life into another, not simply as imitation.",
+      "kt": [
+        "克拉克瓷",
+        "马尼拉大帆船",
+        "VOC",
+        "外销瓷",
+        "开光"
+      ],
+      "img": "assets/artifacts/g05_kraak_pan.jpg",
+      "capz": "图：克拉克瓷盘（示意）· 团队 AI 图像",
+      "cape": "Image: kraak dish (illustrative) · team AI image"
+    },
+    {
+      "id": "r5",
+      "tz": "代尔夫特的误读：当材质被换掉",
+      "te": "Delft: When the Material Changes",
+      "src": "团队原创长文 · Team essay",
+      "quote": "荷兰人学会了画青花，却造不出瓷。于是他们把同样的问题换了一个答案：用一种更白、更软的胎，配上锡釉，再把蓝色画上去。",
+      "comment": "这就是代尔夫特陶的起点。它不是「假的瓷器」，而是一次<b>材质层面的翻译</b>：\n胎从高温瓷换成低温锡釉陶，烧成温度降了，成本也降了；\n白不再来自胎体的透白，而来自一层不透明的锡釉——这层釉必须够白、够匀，否则蓝色会发脏；\n蓝色仍然是钴，但画法变了：在釉上画，颜色浮在表面，可以更浓、更自由，也更难持久。\n换掉材质之后，很多原本内在于瓷的东西消失了：透光性、极高的硬度、釉下的耐久。而新的东西出现了：可以量产、可以做大件、可以迅速响应市场。\n我们把这个案例放在全书的转译链里，因为它最能说明一件事：<b>翻译从来不是等价的，它是有代价的取舍。</b>代尔夫特保留了「白底蓝花」这个视觉承诺，代价是放弃了瓷的物理属性；它换来了市场，却没有换来材质。\n再往后一步，英国的炻器实验把蓝色直接做进了胎体——又是一次材质换位，又是一次取舍。",
+      "en": "<b>English synopsis (team-written)</b>The epilogue returns to the shard market. Among its goods are kiln wasters — vessels that discoloured or collapsed in the fierce heat of the kiln, including the giant 86-centimetre \"fish bowls\" ordered annually by the emperor. Broken and buried beside the kilns or thrown into the river, these fragments are both the endpoint of global consumption and the material evidence a global past has left for the present. <b>The argument</b>The market that seemed an odd place to begin turns out to be the right place to end. Its goods are largely kiln wasters: pieces that discoloured or collapsed in the fierce heat, including the 86-centimetre 'fish bowls' ordered annually by the emperor in the mid-sixteenth century, which toppled under their own weight and brought down their neighbours in the stack. Wasters were smashed and buried beside the kilns, or thrown into the river to be carried away. <b>What to look for</b>The book begins with fragments and ends with fragments. Arriving through rivers, markets and shipping routes, they are at once the endpoint of global consumption and the material evidence a global past leaves to the present.",
+      "en1": "<b>Essay (team-written)</b>Dutch potters learned to paint blue-and-white but could not make porcelain — so they answered the same question with a different material: a whiter, softer body, a tin glaze, and cobalt painted on top.",
+      "en2": "<b>A material translation</b> Firing temperature fell, cost fell; whiteness no longer came from the body but from an opaque tin glaze that had to be even or the blue went muddy. What was lost: translucency, hardness, underglaze permanence. What was gained: mass production, large pieces, fast response to the market.",
+      "en3": "<b>What to look for</b> This is the strongest case in the book for the claim that translation is never equivalent — it keeps the visual promise and pays for it with physical property.",
+      "kt": [
+        "窑废品",
+        "瓷片市场",
+        "鱼缸",
+        "御窑",
+        "物质文化"
+      ],
+      "img": "assets/scenes/s07_shards.jpg",
+      "capz": "图：瓷片市场 · 团队 AI 影像静帧",
+      "cape": "Image: the shard market · still from team AI footage"
+    },
+    {
+      "id": "r6",
+      "tz": "碎片能告诉我们什么",
+      "te": "What Fragments Can Tell Us",
+      "src": "团队原创长文 · Team essay",
+      "quote": "一篇以碎片开头的作品，也应该以碎片收尾。问题不是碎片有多美，而是碎片能证明什么。",
+      "comment": "碎片的第一种价值是<b>断代</b>。同一地层、同一窑址出土的残片，给出了器形与纹样的时间序列；有明确纪年的器物，则把这条序列锚定在具体年份上。少数带铭文的完整器，因此具有远超其审美价值的意义。\n碎片的第二种价值是<b>证伪</b>。传世品可能被修补、被改款、被重新配对；而窑址出土的废品不会说谎，它连缺陷都留在原地——变形、粘砂、窑裂、发色失败。研究成品率，比研究精品更能看清一个产业的实际运转。\n碎片的第三种价值是<b>连接</b>。一块碎片可能同时携带产地信息（胎釉配方）、流通信息（沉船或遗址）与消费信息（使用痕迹）。把这些线索连起来，就是一部物质文化的微观史。\n所以本作品选择从一个市场、一堆碎片开始：不是因为它们完整，而是因为它们诚实。历史学家在碎片里辨认的，从来不是美，而是流动的轨迹。",
+      "en": "<b>English synopsis (team-written)</b>The imperial kilns depended on the Ming artisan-household system: rotational and resident craftsmen, plus large numbers of labourers for mining, pounding and hauling. Labour was divided with great precision across throwing, painting in cobalt blue, firing and opening the kiln. Tang Ying, the Qing dynasty's most famous kiln superintendent, insisted on uniformity — some moulds repaired, some newly made — revealing that mass production was as much a problem of management as of technique. <b>The argument</b>The secret of the imperial kilns lay less in clay and fire than in people. The Ming artisan-household system bound craftsmen to the kilns: rotational craftsmen served in turns, resident craftsmen lived at the works, and large numbers of labourers mined clay, pounded it and hauled materials. Throwing, painting in cobalt, firing and opening the kiln were separate trades, each with its own expertise. <b>What to look for</b>This is a system of precision rather than individual genius. The terminology module of this publication collects the vocabulary of that division of labour (轮班匠 rotational service, 住坐匠 resident service).",
+      "en1": "<b>Essay (team-written)</b>A work that opens with fragments should close with them. The question is not how beautiful they are but what they can prove.",
+      "en2": "<b>Three kinds of evidence</b> Dating: stratified sherds from one kiln give a sequence, and dated pieces anchor it. Falsification: transmitted objects can be repaired, re-marked and re-paired, while kiln waste keeps its defects in place — deformation, adhering grit, firing cracks, failed colour — so yield studies say more about an industry than masterpieces do. Connection: one shard can carry provenance, circulation and use at once.",
+      "en3": "<b>What to look for</b> We start from a market and a heap of shards not because they are complete but because they are honest.",
+      "kt": [
+        "轮班匠",
+        "住坐匠",
+        "督陶官",
+        "唐英",
+        "御窑"
+      ],
+      "img": "assets/scenes/s08_cobalt.jpg",
+      "capz": "图：青花料落笔 · 团队 AI 影像静帧",
+      "cape": "Image: the cobalt brush touches the body · still from team AI footage"
+    }
+  ]
+}
