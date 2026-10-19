@@ -101,10 +101,10 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
   max-width: none; padding: 0; height: 100vh; min-height: 620px;
   display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
-  background:
+    background:
     radial-gradient(ellipse at 30% 20%, rgba(29,62,95,.10), transparent 55%),
-    radial-gradient(ellipse at 75% 80%, rgba(176,129,85,.08), transparent 50%),
-    linear-gradient(160deg, #F7F5F1 0%, #EFEBE3 60%, #E7E2D8 100%);
+    radial-gradient(ellipse at 78% 82%, rgba(74,106,142,.09), transparent 52%),
+    linear-gradient(160deg, #FBFDFE 0%, #F2F5F8 58%, #E6ECF2 100%);
 }
 .cover-pattern {
   position: absolute; inset: 0; opacity: .5; pointer-events: none;
