@@ -112,8 +112,8 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
 .cover-inner { text-align: center; position: relative; z-index: 2; padding: 20px; }
 .cover-vase { margin: 0 auto 26px; display: block; }
 .cover-kicker {
-  font-family: var(--f-en); letter-spacing: 6px; font-size: 13px;
-  color: var(--copper-ink); text-transform: uppercase; margin-bottom: 18px;
+  font-family: var(--f-en); letter-spacing: .06em; font-size: 13px;
+  color: var(--copper-ink); text-transform: none; margin-bottom: 18px;
 }
 .cover-title {
   font-size: clamp(44px, 8vw, 76px); font-weight: 900; color: var(--qh-900);
