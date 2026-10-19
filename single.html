@@ -131,8 +131,8 @@ section { padding: 76px 22px 60px; max-width: var(--maxw); margin: 0 auto; }
 .cover-inner { text-align: center; position: relative; z-index: 2; padding: 20px; }
 .cover-vase { margin: 0 auto 26px; display: block; }
 .cover-kicker {
-  font-family: var(--f-en); letter-spacing: 6px; font-size: 13px;
-  color: var(--copper-ink); text-transform: uppercase; margin-bottom: 18px;
+  font-family: var(--f-en); letter-spacing: .06em; font-size: 13px;
+  color: var(--copper-ink); text-transform: none; margin-bottom: 18px;
 }
 .cover-title {
   font-size: clamp(44px, 8vw, 76px); font-weight: 900; color: var(--qh-900);
@@ -750,10 +750,10 @@ html[lang="en"] .about-p { display: none; }
       <path d="M36 140 c14 6 34 6 48 0" fill="none" stroke="#3D6893" stroke-width="1.2"/>
       <path d="M40 152 c10 5 30 5 40 0" fill="none" stroke="#5B7CA0" stroke-width="1"/>
     </svg>
-    <div class="cover-kicker">An Interactive Bilingual Digital Publication</div>
-    <h1 class="cover-title">蓝 白 之 城</h1>
+    <div class="cover-kicker">中英双语交互式数字出版物</div>
+    <h1 class="cover-title">釉 下 之 蓝</h1>
     <div class="cover-title-en">Blue Under the Glaze</div>
-    <p class="cover-sub" data-i18n="cover_sub">一座中国瓷都如何为整个世界烧造瓷器 —— 从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘。本书基于团队完成的一部英文学术专著全文中译成果制作。</p>
+    <p class="cover-sub" data-i18n="cover_sub">一座中国瓷都如何为整个世界烧造瓷器 —— 从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘。十二章叙事、六篇原创长文、二百七十条双语术语，由团队独立研究与写作完成。</p>
     <div class="cover-meta">全国大学生数字媒体科技作品及创意竞赛 · 国际专项赛参赛作品 ｜ 2026</div>
     <button class="cover-cta" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">进入阅读 · Enter</button>
   </div>
@@ -793,7 +793,7 @@ html[lang="en"] .about-p { display: none; }
   <div class="about-grid">
     <div>
       <p class="about-p">景德镇，江西东北部昌江之畔的一座小镇。公元十四世纪起，这里窑火不熄，为半个地球烧造瓷器。<strong>青花瓷——白底之上以钴蓝绘成的器物——是人类历史上第一种真正意义上的全球商品</strong>：从元代的波斯钴料，到明代御窑的鱼缸与克拉克瓷，从马六甲的转口贸易到阿姆斯特丹的静物画，从代尔夫特的陶工到阿卡普尔科的大帆船，一座小镇的窑业深度嵌入了早期近代世界的运转。</p>
-      <div class="about-en">Jingdezhen, a small town on the Chang River in northeast Jiangxi. From the fourteenth century onward, its kilns never cooled, firing porcelain for half the planet. Blue-and-white porcelain — white vessels painted in cobalt blue — was the first truly global commodity in human history: from Persian cobalt in the Yuan dynasty to the fish bowls of the Ming imperial kilns and kraak porcelain, from the entrepôts of Malacca to the still lifes of Amsterdam, from Delft potters to the Acapulco galleons.</div>
+      <div class="about-en">A bilingual interactive publication on Jingdezhen blue-and-white and the early modern world — twelve sections, six original essays, 270 bilingual terms and a 12-node translation network, researched, written and built by the student team.</div>
       <p class="about-p">本数字出版物由参赛团队独立完成研究与写作——我们以公开的博物馆藏品、考古报告与贸易史料为基础，建成一套<strong>原创双语陶瓷术语库</strong>。在这里，历史被组织为可交互的数字体验：沿时间轴看瓷都千年窑火，沿航线图看青花环球之旅，在长文中阅读团队原创文字，在术语库中检索专业词条。</p>
       <div class="about-en">This digital publication is built upon the team's completed scholarly translation of the author's monograph (原出版方, 2020), together with an original bilingual terminology database. The translation is re-organised here into an interactive experience: a millennium of kiln fires along the timeline, a global voyage of blue-and-white along the trade routes, selected translated passages, and a searchable terminology database.</div>
       <p class="about-p">我们希望它同时是一扇窗与一座桥：<strong>让中文读者看见世界史中的景德镇，让世界读者看见早期近代世界中的中国</strong>。这正是"数字赋能 · 文明互鉴"的题中之义。</p>
@@ -801,8 +801,8 @@ html[lang="en"] .about-p { display: none; }
     </div>
     <div class="card about-side">
       <h3 data-i18n="about_h4">关于本作品 · About</h4>
-      <div class="fact-row"><span>原作 Original</span><b>英文学术专著 · 2020</b></div>
-      <div class="fact-row"><span>译本 Translation</span><b>团队全文中译 · 十二章</b></div>
+      <div class="fact-row"><span>原创长文 Essays</span><b>6 篇 · 中英双语</b></div>
+      <div class="fact-row"><span>术语库 Terms</span><b>270 条 · 14 门类</b></div>
       <div class="fact-row"><span>原创长文 Original essays</span><b>6 essays</b></div>
       <div class="fact-row"><span>原创术语 Original terms</span><b id="factTerms">270</b></div>
       <div class="fact-row"><span>转译网络 Translation network</span><b>12 nodes / 14 edges</b></div>
@@ -961,8 +961,8 @@ html[lang="en"] .about-p { display: none; }
       <ul>
         <li data-i18n-html="li_6"><b>Stage 0 提取清洗</b> — PDF 文本提取，修复连字、CID 噪音、页眉噪音等 11 类提取损伤</li>
         <li data-i18n-html="li_7"><b>Stage 0.5 上下文纠错</b> — 43 条歧义词消歧规则 + PDF 回读校验</li>
-        <li data-i18n-html="li_8"><b>Stage 1 术语对齐</b> — 术语库 + 地名词典前置加载，杜绝译法漂移</li>
-        <li data-i18n-html="li_9"><b>Stage 2 三步翻译</b> — 直译 → 反思（术语/规范/去翻译腔）→ 雅化</li>
+        <li data-i18n-html="li_8"><b>数据与可视化</b> — 开放数据层、时间线 / 航线 / 转译网络的可视化实现</li>
+        <li data-i18n-html="li_9"><b>影像与配乐</b> — 评审视频剧本、分镜、剪辑；程序化原创配乐</li>
         <li data-i18n-html="li_10"><b>Stage 3.5 质量门控</b> — 段落完整性 / 漏译检测 / 歧义闭环 / 可读性 / 术语覆盖率，五项量化评分</li>
         <li data-i18n-html="li_11"><b>Stage 4 QA 校验</b> — 硬知识违规阻断、禁用变体扫描、来源著录交叉验证</li>
       </ul>
@@ -1078,7 +1078,7 @@ const I18N = {
     nav_about: '导语', nav_timeline: '时间线', nav_routes: '航线图',
     nav_gallery: '器物', nav_trans: '转译',
     nav_read: "长文", nav_terms: '术语库', nav_notes: '研究方法', nav_team: '团队',
-    cover_sub: '一座中国瓷都如何为整个世界烧造瓷器 —— 从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘。本书基于团队完成的一部英文学术专著全文中译成果制作。',
+    cover_sub: "一座中国瓷都如何为整个世界烧造瓷器 —— 从昌江之畔的窑火，到印度洋的帆影、荷兰静物画中的青花盘。十二章叙事、六篇原创长文、二百七十条双语术语，由团队独立研究与写作完成。",
     tl_prev: '← 上一节点', tl_next: '下一节点 →',
     terms_ph: '检索术语：中文 / 英文 / 注释，如 青花、cobalt、梅瓶、kraak…',
     map_note: '示意图 · Schematic — 仅示相对位置与航线关系，非精确地理投影',
@@ -1113,7 +1113,7 @@ const I18N = {
     nav_about: 'Prologue', nav_timeline: 'Timeline', nav_routes: 'Routes',
     nav_gallery: 'Objects', nav_trans: 'Translation',
     nav_read: "Essays", nav_terms: 'Terms', nav_notes: 'Notes', nav_team: 'Team',
-    cover_sub: 'How one Chinese porcelain city fired the whole world — from kiln fires on the Chang River to sails on the Indian Ocean and blue-and-white dishes in Dutch still lifes. Based on the team\'s complete Chinese translation of an English-language scholarly monograph.',
+    cover_sub: "A bilingual interactive publication on Jingdezhen blue-and-white and the early modern world — twelve sections, six original essays and 270 bilingual terms, written by the student team.",
     tl_prev: '← Previous', tl_next: 'Next →',
     terms_ph: 'Search terms: Chinese / English / notes, e.g. 青花, cobalt, 梅瓶, kraak…',
     map_note: 'Schematic — relative positions only; not a precise cartographic projection',
@@ -1153,8 +1153,8 @@ const I18N = {
     li_5: '<b>Video production</b> — script, recording, narration synthesis <i>(All members)</i>',
     li_6: '<b>Stage 0 — extraction &amp; cleaning</b>: PDF text extraction; repair of 11 classes of damage (ligatures, CID noise, running heads)',
     li_7: '<b>Stage 0.5 — contextual correction</b>: 43 disambiguation rules with PDF re-reading',
-    li_8: '<b>Stage 1 — terminology alignment</b>: glossary and gazetteer pre-loaded to prevent drift',
-    li_9: '<b>Stage 2 — three-step translation</b>: literal → reflection (terminology, norms, de-translationese) → polish',
+    li_8: "<b>Data and visualisation</b> — the open data layer and the visual implementation of the timeline and route map",
+    li_9: "<b>Film and music</b> — video script, storyboard and edit; procedurally composed original score",
     li_10: '<b>Stage 3.5 — quality gate</b>: paragraph completeness, omission detection, ambiguity closure, readability, terminology coverage — five quantitative scores',
     li_11: "<b>Stage 4 QA</b> — hard-knowledge violation blocking, banned-variant scanning, citation cross-checking",
     dc_0: 'SOURCE &amp; AI DISCLOSURE',
@@ -1735,7 +1735,7 @@ const READINGS = [
 白不再来自胎体的透白，而来自一层不透明的锡釉——这层釉必须够白、够匀，否则蓝色会发脏；
 蓝色仍然是钴，但画法变了：在釉上画，颜色浮在表面，可以更浓、更自由，也更难持久。
 换掉材质之后，很多原本内在于瓷的东西消失了：透光性、极高的硬度、釉下的耐久。而新的东西出现了：可以量产、可以做大件、可以迅速响应市场。
-我们把这个案例放在全书的转译链里，因为它最能说明一件事：<b>翻译从来不是等价的，它是有代价的取舍。</b>代尔夫特保留了「白底蓝花」这个视觉承诺，代价是放弃了瓷的物理属性；它换来了市场，却没有换来材质。
+我们把这个案例放在作品的转译链里，因为它最能说明一件事：<b>翻译从来不是等价的，它是有代价的取舍。</b>代尔夫特保留了「白底蓝花」这个视觉承诺，代价是放弃了瓷的物理属性；它换来了市场，却没有换来材质。
 再往后一步，英国的炻器实验把蓝色直接做进了胎体——又是一次材质换位，又是一次取舍。`,
     en: `<b>Essay (team-written)</b>`,
     en1: `<b>Essay (team-written)</b>Dutch potters learned to paint blue-and-white but could not make porcelain — so they answered the same question with a different material: a whiter, softer body, a tin glaze, and cobalt painted on top.`,
