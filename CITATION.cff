@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: 釉下之蓝 · Blue Under the Glaze
+message: 如需引用本作品，请使用以下信息 / If you use this work, please cite it as below.
+type: software
+abstract: >-
+  一部关于景德镇青花瓷与早期近代世界的中英双语交互式数字出版物。包含十二章叙述、
+  六篇团队原创长文、270 条原创双语术语库、12 节点时间线、19 个港口与 19 条贸易航线、
+  10 件器物画廊、12 节点 / 14 条边的跨材质转译网络，以及开放数据层与 41 项数据校验脚本。
+  零第三方依赖，可离线运行。
+authors:
+  - name: 参赛团队（学生团队）
+version: "1.0"
+date-released: "2026-10-19"
+url: "https://secret-justice.github.io/blue-under-the-glaze/"
+repository-code: "https://github.com/secret-justice/blue-under-the-glaze"
+license: MIT
+keywords:
+  - 数字人文
+  - 景德镇
+  - 青花瓷
+  - 全球史
+  - 双语交互出版物
+  - digital humanities
+  - Jingdezhen
+  - blue-and-white porcelain
