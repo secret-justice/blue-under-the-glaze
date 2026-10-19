@@ -1,0 +1,77 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "categories",
+  "count": 14,
+  "records": [
+    {
+      "key": "basic",
+      "zh": "基础概念",
+      "en": "Basics"
+    },
+    {
+      "key": "cobalt",
+      "zh": "钴料体系",
+      "en": "Cobalt"
+    },
+    {
+      "key": "glaze",
+      "zh": "釉色",
+      "en": "Glazes"
+    },
+    {
+      "key": "craft",
+      "zh": "工艺窑炉",
+      "en": "Craft & Kilns"
+    },
+    {
+      "key": "deco",
+      "zh": "彩饰体系",
+      "en": "Decoration"
+    },
+    {
+      "key": "shape",
+      "zh": "器型",
+      "en": "Shapes"
+    },
+    {
+      "key": "motif",
+      "zh": "装饰母题",
+      "en": "Motifs"
+    },
+    {
+      "key": "kiln",
+      "zh": "窑口名物",
+      "en": "Kilns & Names"
+    },
+    {
+      "key": "trade",
+      "zh": "贸易流通",
+      "en": "Trade"
+    },
+    {
+      "key": "export",
+      "zh": "外销瓷",
+      "en": "Export Ware"
+    },
+    {
+      "key": "econ",
+      "zh": "度量经济",
+      "en": "Measures & Economy"
+    },
+    {
+      "key": "labor",
+      "zh": "劳动行政",
+      "en": "Labour & Admin"
+    },
+    {
+      "key": "symbol",
+      "zh": "吉祥寓意",
+      "en": "Symbolism"
+    },
+    {
+      "key": "refs",
+      "zh": "中文文献反查",
+      "en": "Chinese Titles"
+    }
+  ]
+}
