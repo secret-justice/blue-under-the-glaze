@@ -1,0 +1,63 @@
+{
+  "schema": "blueandwhite/1",
+  "dataset": "trans",
+  "count": 4,
+  "records": [
+    {
+      "n": 1,
+      "place": "景德镇 · Jingdezhen",
+      "era": "元—明 · 14–17 世纪",
+      "tz": "起点：白底蓝花",
+      "te": "Origin: white ground, blue design",
+      "file": "assets/artifacts/g05_kraak_pan.jpg",
+      "mat_z": "高岭土瓷胎 · 釉下钴蓝",
+      "mat_e": "Porcelain, underglaze cobalt",
+      "pz": "钴料绘于素坯、罩透明釉一次高温烧成，蓝色沉入釉下永不被磨去。开光构图把器面切分为若干装饰空间，便于批量绘制与跨文化辨识——这是它为远方陌生人准备好的视觉语言。",
+      "pe": "Cobalt painted on the raw body, covered with clear glaze, fired once at high temperature: the blue lies beneath the glaze and can never wear off. Panelling divides the surface into legible fields — a visual language prepared for strangers far away.",
+      "key_z": "定义",
+      "key_e": "Defines"
+    },
+    {
+      "n": 2,
+      "place": "有田 · Arita, Japan",
+      "era": "17–18 世纪",
+      "tz": "第一转：伊万里",
+      "te": "First translation: Imari",
+      "file": "assets/artifacts/g07_imari.jpg",
+      "mat_z": "瓷胎 · 釉下青花 + 釉上红金彩",
+      "mat_e": "Porcelain, underglaze blue + overglaze red & gold",
+      "pz": "日本有田窑获得钴料与画样后，没有止于模仿：青花保留为骨架，红与金被叠加其上。纹样仍是中国的牡丹凤凰，色彩体系却是日本感性的热烈——继承纹样，重写审美。",
+      "pe": "Arita potters kept the cobalt skeleton but added red and gold over the glaze. The motifs stay Chinese; the colour system turns emphatically Japanese. Inherit the pattern, rewrite the aesthetic.",
+      "key_z": "重绘",
+      "key_e": "Redraws"
+    },
+    {
+      "n": 3,
+      "place": "代尔夫特 · Delft, Netherlands",
+      "era": "17 世纪",
+      "tz": "第二转：代尔夫特",
+      "te": "Second translation: Delft",
+      "file": "assets/artifacts/g08_delft.jpg",
+      "mat_z": "锡釉陶（非瓷） · 柔和钴蓝",
+      "mat_e": "Tin-glazed earthenware (not porcelain), soft cobalt",
+      "pz": "欧洲此时尚不能烧造硬质瓷，代尔夫特以锡釉陶转译青花。钴蓝因铅釉而柔和发灰，画工笔下的中国亭台从未有人亲见——这是一次带着误读的致敬，也是欧洲\"中国风\"（chinoiserie）的起点。",
+      "pe": "Europe could not yet fire true porcelain, so Delft translated blue-and-white into tin-glazed earthenware. The cobalt softened to grey under lead glaze, and the pavilions were drawn by hands that had never seen China — a misreading that became chinoiserie.",
+      "key_z": "误读",
+      "key_e": "Misreads"
+    },
+    {
+      "n": 4,
+      "place": "斯托克 · Stoke-on-Trent, England",
+      "era": "18 世纪",
+      "tz": "第三转：韦奇伍德",
+      "te": "Third translation: Wedgwood",
+      "file": "assets/artifacts/g09_wedgwood.jpg",
+      "mat_z": "碧玉细炻瓷 · 蓝即本体",
+      "mat_e": "Jasperware · blue as the body itself",
+      "pz": "韦奇伍德索性取消了\"画上去的蓝\"：蓝成为坯体本身的颜色，白色浮雕从蓝底上浮现。青花从一个装饰系统变成一种材料观念——这次旅行抵达最远处：纹样消失了，颜色活了下来。",
+      "pe": "Wedgwood abolished the painted blue altogether: blue became the body itself, with white reliefs rising from it. Qinghua turned from a decorative system into an idea of material. The furthest point of the journey — the pattern vanished, the colour survived.",
+      "key_z": "内化",
+      "key_e": "Absorbs"
+    }
+  ]
+}
