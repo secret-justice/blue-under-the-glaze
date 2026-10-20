@@ -671,6 +671,25 @@ html[lang="en"] .about-p { display: none; }
 /* 深底上的浅铜统一提亮 */
 [style*="color:var(--copper)"] { color: var(--copper-ink); }
 
+/* ---------- 首访引导 ---------- */
+.onb { position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 16px);
+  width: min(560px, calc(100% - 32px)); background: #12293D; color: #F2F5F8;
+  border-radius: 14px; padding: 20px 22px 18px; box-shadow: 0 18px 48px rgba(18,41,61,.28);
+  z-index: 900; opacity: 0; transition: opacity .26s ease-out, transform .26s ease-out;
+  border-top: 3px solid #B08155; }
+.onb.in { opacity: 1; transform: translate(-50%, 0); }
+.onb-h { font-family: var(--f-sans); font-size: 13px; letter-spacing: .04em;
+  color: #E0B98C; margin-bottom: 10px; }
+.onb-list { margin: 0 0 14px 18px; padding: 0; }
+.onb-list li { font-size: 14px; line-height: 1.85; color: #E8EEF4; }
+.onb-act { display: flex; gap: 10px; justify-content: flex-end; }
+.onb-go, .onb-skip { font-family: var(--f-sans); font-size: 13px; padding: 8px 16px;
+  border-radius: 999px; cursor: pointer; border: 1px solid transparent; }
+.onb-go { background: #B08155; color: #12293D; font-weight: 700; }
+.onb-skip { background: transparent; color: #C9D4DF; border-color: rgba(201,212,223,.36); }
+.onb-go:focus-visible, .onb-skip:focus-visible { outline: 2px solid #E0B98C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .onb { transition: none; } }
+
 </style>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -2171,12 +2190,43 @@ function initLangFromURL() {
   return false;
 }
 
+
+/* ---------- 首访 3 步引导（可关闭 · 记忆 · 键盘可达 · 尊重 reduced-motion）---------- */
+function initOnboarding() {
+  try { if (localStorage.getItem('bw_onboarded') === '1') return; } catch (e) { return; }
+  const STEPS = LANG === 'en'
+    ? ['Eight modules live in the top navigation — start with Contents.',
+       'In Translation, switch to the network view and click any node.',
+       'Chinese / English: the toggle is at the top right.']
+    : ['八个模块在顶部导航，建议从「内容总览」开始。',
+       '「转译」模块可切到网络视图，点击任一节点看它的源流关系。',
+       '中英切换在右上角，也可用 ?lang=en 直链。'];
+  const el = document.createElement('div');
+  el.className = 'onb';
+  el.setAttribute('role', 'dialog');
+  el.setAttribute('aria-label', LANG === 'en' ? 'Quick start' : '快速上手');
+  el.innerHTML = `<div class="onb-h">${LANG === 'en' ? 'Quick start · 30 seconds' : '快速上手 · 30 秒'}</div>
+    <ol class="onb-list">${STEPS.map(s => `<li>${s}</li>`).join('')}</ol>
+    <div class="onb-act">
+      <button class="onb-go" onclick="closeOnboarding(true)">${LANG === 'en' ? 'Got it' : '知道了'}</button>
+      <button class="onb-skip" onclick="closeOnboarding(false)">${LANG === 'en' ? 'Don't show again' : '不再提示'}</button>
+    </div>`;
+  document.body.appendChild(el);
+  requestAnimationFrame(() => el.classList.add('in'));
+}
+function closeOnboarding(remember) {
+  const el = document.querySelector('.onb');
+  if (el) { el.classList.remove('in'); setTimeout(() => el.remove(), 260); }
+  try { localStorage.setItem('bw_onboarded', '1'); } catch (e) {}
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initLangFromURL();
   renderTimelineNodes();
   buildRouteMap();
   initLazyRender();
   initNavSpy();
+  setTimeout(initOnboarding, 1200);
   initReadProgress();
 });
 
