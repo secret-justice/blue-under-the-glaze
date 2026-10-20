@@ -666,7 +666,7 @@ html[lang="en"] .about-p { display: none; }
 .onb-act { display: flex; gap: 10px; justify-content: flex-end; }
 .onb-go, .onb-skip { font-family: var(--f-sans); font-size: 13px; padding: 8px 16px;
   border-radius: 999px; cursor: pointer; border: 1px solid transparent; }
-.onb-go { background: #B08155; color: #12293D; font-weight: 700; }
+.onb-go { background: #B08155; color: #0B1720; font-weight: 700; }
 .onb-skip { background: transparent; color: #C9D4DF; border-color: rgba(201,212,223,.36); }
 .onb-go:focus-visible, .onb-skip:focus-visible { outline: 2px solid #E0B98C; outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .onb { transition: none; } }
