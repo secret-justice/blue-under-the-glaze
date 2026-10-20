@@ -1158,11 +1158,42 @@ function initLangFromURL() {
   return false;
 }
 
+
+/* ---------- 首访 3 步引导（可关闭 · 记忆 · 键盘可达 · 尊重 reduced-motion）---------- */
+function initOnboarding() {
+  try { if (localStorage.getItem('bw_onboarded') === '1') return; } catch (e) { return; }
+  const STEPS = LANG === 'en'
+    ? ['Eight modules live in the top navigation — start with Contents.',
+       'In Translation, switch to the network view and click any node.',
+       'Chinese / English: the toggle is at the top right.']
+    : ['八个模块在顶部导航，建议从「内容总览」开始。',
+       '「转译」模块可切到网络视图，点击任一节点看它的源流关系。',
+       '中英切换在右上角，也可用 ?lang=en 直链。'];
+  const el = document.createElement('div');
+  el.className = 'onb';
+  el.setAttribute('role', 'dialog');
+  el.setAttribute('aria-label', LANG === 'en' ? 'Quick start' : '快速上手');
+  el.innerHTML = `<div class="onb-h">${LANG === 'en' ? 'Quick start · 30 seconds' : '快速上手 · 30 秒'}</div>
+    <ol class="onb-list">${STEPS.map(s => `<li>${s}</li>`).join('')}</ol>
+    <div class="onb-act">
+      <button class="onb-go" onclick="closeOnboarding(true)">${LANG === 'en' ? 'Got it' : '知道了'}</button>
+      <button class="onb-skip" onclick="closeOnboarding(false)">${LANG === 'en' ? 'Don't show again' : '不再提示'}</button>
+    </div>`;
+  document.body.appendChild(el);
+  requestAnimationFrame(() => el.classList.add('in'));
+}
+function closeOnboarding(remember) {
+  const el = document.querySelector('.onb');
+  if (el) { el.classList.remove('in'); setTimeout(() => el.remove(), 260); }
+  try { localStorage.setItem('bw_onboarded', '1'); } catch (e) {}
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initLangFromURL();
   renderTimelineNodes();
   buildRouteMap();
   initLazyRender();
   initNavSpy();
+  setTimeout(initOnboarding, 1200);
   initReadProgress();
 });
