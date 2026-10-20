@@ -1177,7 +1177,7 @@ function initOnboarding() {
     <ol class="onb-list">${STEPS.map(s => `<li>${s}</li>`).join('')}</ol>
     <div class="onb-act">
       <button class="onb-go" onclick="closeOnboarding(true)">${LANG === 'en' ? 'Got it' : '知道了'}</button>
-      <button class="onb-skip" onclick="closeOnboarding(false)">${LANG === 'en' ? 'Don't show again' : '不再提示'}</button>
+      <button class="onb-skip" onclick="closeOnboarding(false)">${LANG === 'en' ? 'Hide for good' : '不再提示'}</button>
     </div>`;
   document.body.appendChild(el);
   requestAnimationFrame(() => el.classList.add('in'));
