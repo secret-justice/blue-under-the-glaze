@@ -651,3 +651,22 @@ html[lang="en"] .about-p { display: none; }
 .foot-en { color: var(--qh-200); }
 /* 深底上的浅铜统一提亮 */
 [style*="color:var(--copper)"] { color: var(--copper-ink); }
+
+/* ---------- 首访引导 ---------- */
+.onb { position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 16px);
+  width: min(560px, calc(100% - 32px)); background: #12293D; color: #F2F5F8;
+  border-radius: 14px; padding: 20px 22px 18px; box-shadow: 0 18px 48px rgba(18,41,61,.28);
+  z-index: 900; opacity: 0; transition: opacity .26s ease-out, transform .26s ease-out;
+  border-top: 3px solid #B08155; }
+.onb.in { opacity: 1; transform: translate(-50%, 0); }
+.onb-h { font-family: var(--f-sans); font-size: 13px; letter-spacing: .04em;
+  color: #E0B98C; margin-bottom: 10px; }
+.onb-list { margin: 0 0 14px 18px; padding: 0; }
+.onb-list li { font-size: 14px; line-height: 1.85; color: #E8EEF4; }
+.onb-act { display: flex; gap: 10px; justify-content: flex-end; }
+.onb-go, .onb-skip { font-family: var(--f-sans); font-size: 13px; padding: 8px 16px;
+  border-radius: 999px; cursor: pointer; border: 1px solid transparent; }
+.onb-go { background: #B08155; color: #12293D; font-weight: 700; }
+.onb-skip { background: transparent; color: #C9D4DF; border-color: rgba(201,212,223,.36); }
+.onb-go:focus-visible, .onb-skip:focus-visible { outline: 2px solid #E0B98C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .onb { transition: none; } }
