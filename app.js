@@ -139,7 +139,7 @@ const I18N = {
     d_read: "Six original essays by the team, moving from the shard market and the origins of cobalt to kiln networks, silver and panelling, material substitution, and what fragments can prove. Both the Chinese and English texts are written by the team — not translations of any existing work.",
     k_terms: 'Terminology',
     t_terms: 'An original bilingual terminology database of Chinese ceramics',
-    d_terms: 'The database is the core infrastructure of the team\'s translation project: it keeps terminology consistent across 930,000 characters of Chinese translation, covering fourteen categories — basic concepts, cobalt materials, glazes, craft and kilns, decoration, forms, motifs, kiln sites, circulation, export ware, weights and measures, labour and administration, auspicious symbolism, and Chinese-source cross-checking. Search in Chinese or English, and filter by category.',
+    d_terms: 'The glossary is the data foundation of this work: 270 original bilingual terms organised into 14 categories, searchable in both languages.',
     k_notes: "Method & Sources · 研究方法",
     t_notes: "我们怎么研究，以及我们没做什么",
     d_notes: "This is not a translated work and no single publication serves as its base text. Here we set out our method, our references, the limits on our images and data, and the three things the work deliberately does not do.",
